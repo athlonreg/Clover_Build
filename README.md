@@ -1,6 +1,16 @@
 # Clover_Build
 ## A script about building clover with AptioFixPkg by UDK2018
 
+## 下载说明
+
+本仓库自动部署，`CLOVER`源码有更新时，此脚本会自动部署并上传`pkg`、`iso`以及`zip`至本仓库`build`目录
+
+
+
+## 编译说明
+
+> 如果你想手动编译，请往下看编译流程
+
 现在我们可以利用`UDK2018`来编译`CLOVER`。下面是步骤：
 
 1. 安装`macOS`，推荐最好`10.13.4`。
