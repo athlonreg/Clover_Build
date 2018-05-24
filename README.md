@@ -1,11 +1,22 @@
 # Clover_Build
-## A script about building clover with AptioFixPkg by UDK2018
+> A script about building clover with AptioFixPkg by UDK2018
 
 ## 下载说明
 
 本仓库自动部署，`CLOVER`源码有更新时，此脚本会自动部署并上传`iso`和`zip`至本仓库`build`目录
 
+下载
 
+```bash
+$ cd && git clone https://github.com/athlonreg/Clover_Build 
+```
+
+更新
+
+```bash
+$ cd ~/Clover_Build 
+$ git pull 
+```
 
 ## 编译说明
 
@@ -91,4 +102,10 @@ $ . .bashrc
 ```bash
 $ udkbuild 
 ```
+
+## Credits
+- `Clover Team` 
+- [vit9696's AptioFixpkg](https://github.com/vit9696/AptioFixPkg) 
+- zenith432 
+
 
