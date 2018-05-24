@@ -15,7 +15,7 @@ cd ~/AptioFixPkg/ && git pull
 # Custom macbuild.tool 
 cp ~/AptioFixPkg/macbuild.tool ~/AptioFixPkg/macbuild.tool.bak  
 col=`awk 'END{print NR}' ~/AptioFixPkg/macbuild.tool` 
-update1=$(cat -n ~/AptioFixPkg/macbuild.tool | grep updaterepo | grep https://github.com/tianocore/edk2 | cut -b 5,6) 
+update1=$(cat -n ~/AptioFixPkg/macbuild.tool | grep updaterepo | grep https://github.com/tianocore/edk2 | awk '{print $1}') 
 ((update2=$update1-1)) 
 ((update3=$update1+1)) 
 
