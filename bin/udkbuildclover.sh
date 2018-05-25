@@ -1,8 +1,9 @@
 #!/bin/bash
 
 # Update Clover source 
-cd ~/src/UDK2018/Clover/ && svn update 
-cd .. && make -C BaseTools/Source/C 
+cd ~/src/UDK2018_Canvas/Clover/ && svn update 
+cd .. && git pull origin UDK2018 
+make -C BaseTools/Source/C 
 cd Clover/ && ./ebuild.sh -fr 
 cd 
 
@@ -16,14 +17,14 @@ cd ~/AptioFixPkg/ && git pull
 ~/AptioFixPkg/macbuild.tool 
 
 # Copy .efi driver to Clover source dir 
-cp ~/driverefi/apfs.efi ~/src/UDK2018/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/ 
-cp ~/driverefi/NTFS.efi ~/src/UDK2018/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/ 
-cp ~/driverefi/HFSPlus.efi ~/src/UDK2018/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/ 
-cp ~/AptioFixPkg/UDK/Build/AptioFixPkg/RELEASE_XCODE5/X64/Aptio*.efi ~/src/UDK2018/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/ 
+cp ~/driverefi/apfs.efi ~/src/UDK2018_Canvas/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/ 
+cp ~/driverefi/NTFS.efi ~/src/UDK2018_Canvas/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/ 
+cp ~/driverefi/HFSPlus.efi ~/src/UDK2018_Canvas/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/ 
+cp ~/AptioFixPkg/UDK/Build/AptioFixPkg/RELEASE_XCODE5/X64/Aptio*.efi ~/src/UDK2018_Canvas/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/ 
 
-cp ~/driverefi/apfs-64.efi ~/src/UDK2018/Clover/CloverPackage/CloverV2/drivers-Off/drivers64/ 
-cp ~/driverefi/NTFS-64.efi ~/src/UDK2018/Clover/CloverPackage/CloverV2/drivers-Off/drivers64/ 
-cp ~/driverefi/HFSPlus-64.efi ~/src/UDK2018/Clover/CloverPackage/CloverV2/drivers-Off/drivers64/ 
+cp ~/driverefi/apfs-64.efi ~/src/UDK2018_Canvas/Clover/CloverPackage/CloverV2/drivers-Off/drivers64/ 
+cp ~/driverefi/NTFS-64.efi ~/src/UDK2018_Canvas/Clover/CloverPackage/CloverV2/drivers-Off/drivers64/ 
+cp ~/driverefi/HFSPlus-64.efi ~/src/UDK2018_Canvas/Clover/CloverPackage/CloverV2/drivers-Off/drivers64/ 
 
 # Make iso and pkg 
-cd ~/src/UDK2018/Clover/CloverPackage/ && ./makepkg && ./makeiso 
+cd ~/src/UDK2018_Canvas/Clover/CloverPackage/ && ./makepkg && ./makeiso 
