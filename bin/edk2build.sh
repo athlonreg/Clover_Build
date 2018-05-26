@@ -71,10 +71,10 @@ cd "$EDK2_DIR"/Clover
 cp ~/driverefi/apfs.efi ~/src/edk2_canvas/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/ 
 cp ~/driverefi/NTFS.efi ~/src/edk2_canvas/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/ 
 cp ~/driverefi/HFSPlus.efi ~/src/edk2_canvas/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/ 
-cp ~/edk2_canvas/Build/AptioFixPkg/RELEASE_XCODE5/X64/AptioMemoryFix.efi ~/src/edk2_canvas/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/ 
-cp ~/edk2_canvas/Build/AptioFixPkg/RELEASE_XCODE5/X64/AptioInputFix.efi ~/src/edk2_canvas/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/ 
-cp ~/edk2_canvas/Build/AptioFixPkg/RELEASE_XCODE5/X64/CleanNvram.efi ~/src/edk2_canvas/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/ 
-cp ~/edk2_canvas/Build/AptioFixPkg/RELEASE_XCODE5/X64/VerifyMsrE2.efi ~/src/edk2_canvas/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/ 
+cp ~/src/edk2_canvas/Build/AptioFixPkg/RELEASE_XCODE5/X64/AptioMemoryFix.efi ~/src/edk2_canvas/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/ 
+cp ~/src/edk2_canvas/Build/AptioFixPkg/RELEASE_XCODE5/X64/AptioInputFix.efi ~/src/edk2_canvas/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/ 
+cp ~/src/edk2_canvas/Build/AptioFixPkg/RELEASE_XCODE5/X64/CleanNvram.efi ~/src/edk2_canvas/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/ 
+cp ~/src/edk2_canvas/Build/AptioFixPkg/RELEASE_XCODE5/X64/VerifyMsrE2.efi ~/src/edk2_canvas/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/ 
 
 cp ~/driverefi/apfs-64.efi ~/src/edk2_canvas/Clover/CloverPackage/CloverV2/drivers-Off/drivers64/ 
 cp ~/driverefi/NTFS-64.efi ~/src/edk2_canvas/Clover/CloverPackage/CloverV2/drivers-Off/drivers64/ 
