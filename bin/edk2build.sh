@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 # Variable 
 EDK2_DIR=~/src/edk2_canvas/ 
 BUILDTOOL="$XCODE" 
