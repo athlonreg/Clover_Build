@@ -8,3 +8,5 @@
 - Micky1979
 
 
+- 4506: correct makeiso for new drivers location by slice2009 -- 2018-05-28
+ 
