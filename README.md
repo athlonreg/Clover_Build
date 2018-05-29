@@ -8,7 +8,7 @@
 - Micky1979
 
 ## Changelog
-- 4508:
+- 4508: exclude null chars from generated config.plist by slice2009 -- 2018-05-29
  
 - 4507: correct mistakes by slice2009 -- 2018-05-29
 
