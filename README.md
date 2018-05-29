@@ -10,8 +10,6 @@
 ## Changelog
 - 4508:
  
-- 4508:
- 
 - 4507: correct mistakes by slice2009 -- 2018-05-29
 
 - 4506: correct makeiso for new drivers location by slice2009 -- 2018-05-28
