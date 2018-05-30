@@ -8,6 +8,8 @@
 - Micky1979
 
 ## Changelog
+- 4509: exclude pointers to milk by slice2009 -- 2018-05-30
+ 
 - 4508: exclude null chars from generated config.plist by slice2009 -- 2018-05-29
  
 - 4507: correct mistakes by slice2009 -- 2018-05-29
