@@ -8,6 +8,8 @@
 - Micky1979
 
 ## Changelog
+- 4510: fix PS2Keyboard by Jief Machak by slice2009 -- 2018-05-30
+ 
 - 4509: exclude pointers to milk by slice2009 -- 2018-05-30
  
 - 4508: exclude null chars from generated config.plist by slice2009 -- 2018-05-29
