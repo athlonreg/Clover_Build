@@ -10,8 +10,6 @@
 ## Changelog
 - 4512: fix previous commit by slice2009 -- 2018-06-01
  
-- 4512: fix previous commit by slice2009 -- 2018-06-01
- 
 - 4510: fix PS2Keyboard by Jief Machak by slice2009 -- 2018-05-30
  
 - 4509: exclude pointers to milk by slice2009 -- 2018-05-30
