@@ -8,6 +8,8 @@
 - Micky1979
 
 ## Changelog
+- 4513: choices for mandatory drivers by slice2009 -- 2018-06-03
+ 
 - 4512: fix previous commit by slice2009 -- 2018-06-01
  
 - 4510: fix PS2Keyboard by Jief Machak by slice2009 -- 2018-05-30
