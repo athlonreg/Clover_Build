@@ -8,6 +8,8 @@
 - Micky1979
 
 ## Changelog
+- 4519: additional patches for mojave by PMheart by slice2009 -- 2018-06-06
+ 
 - 4513: choices for mandatory drivers by slice2009 -- 2018-06-03
  
 - 4512: fix previous commit by slice2009 -- 2018-06-01
