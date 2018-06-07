@@ -8,6 +8,10 @@
 - Micky1979
 
 ## Changelog
+- 4521: corrected switch menu navigation by slice2009 -- 2018-06-07
+ 
+- 4521: corrected switch menu navigation by slice2009
+
 - 4519: additional patches for mojave by PMheart by slice2009 -- 2018-06-06
  
 - 4513: choices for mandatory drivers by slice2009 -- 2018-06-03
