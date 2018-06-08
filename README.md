@@ -10,8 +10,6 @@
 ## Changelog
 - 4522: fix hibernation issue when two drives in system by slice2009 -- 2018-06-08
  
-- 4522: fix hibernation issue when two drives in system by slice2009 -- 2018-06-08
- 
 - 4521: corrected switch menu navigation by slice2009 -- 2018-06-07
  
 - 4519: additional patches for mojave by PMheart by slice2009 -- 2018-06-06
