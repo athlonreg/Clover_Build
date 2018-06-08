@@ -1,6 +1,4 @@
-
 .DS_Store
-deploy.sh
-/bin/edk2build_1.sh
 /bin/edk2build_2.sh
-/bin
+/bin/edk2build_1.sh
+/bin/udkbuild.sh
