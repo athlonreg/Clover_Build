@@ -10,7 +10,7 @@ log=$(echo "\n$org" | sed -n '4p')
 log="$pro_ver: $log by $author" 
 
 # git_tag="r${pro_ver}"
-# cloversize=1
+cloversize=1
 # flag=0
 
 # Build 
@@ -23,6 +23,14 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 #	rm -rf ~/Documents/Tower/Build_Clover_GitLab/build/* 
 	
 	~/Documents/Tower/Build_Clover/bin/udkbuild.sh
+	
+	# Judge local CLOVER size to avoid error 
+	cloversize=$(ls -l ~/src/UDK2018/Clover/CloverPackage/sym/*.zip | awk '{print $5}') 
+	while [[ $cloversize < 13000000 ]] 
+	do
+		~/Documents/Tower/Build_Clover/bin/udkbuild.sh 
+		cloversize=$(ls -l ~/src/UDK2018/Clover/CloverPackage/sym/*.zip | awk '{print $5}') 
+	done
 	
 	# Copy CLOVER to Gitee workspace 
 	mkdir -p ~/Documents/Tower/Build_Clover/build/Clover_v2.4k_r${pro_ver}

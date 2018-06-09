@@ -10,7 +10,7 @@ log=$(echo "\n$org" | sed -n '4p')
 log="$pro_ver: $log by $author" 
 
 # git_tag="r${pro_ver}"
-# cloversize=1
+cloversize=1
 # flag=0
 
 # Build 
@@ -20,12 +20,12 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 	~/Documents/Tower/Build_Clover/bin/edk2build_1.sh 
 	
 	# Judge local CLOVER size to avoid error 
-#	cloversize=$(ls -l ~/src/edk2_micky/Clover/CloverPackage/sym/*.zip | awk '{print $5}') 
-#	while [[ $cloversize < 13000000 ]] 
-#	do
-#		~/shell/edk2build_1.sh 
-#		cloversize=$(ls -l ~/src/edk2_micky/Clover/CloverPackage/sym/*.zip | awk '{print $5}') 
-#	done
+	cloversize=$(ls -l ~/src/edk2_micky/Clover/CloverPackage/sym/*.zip | awk '{print $5}') 
+	while [[ $cloversize < 13000000 ]] 
+	do
+		~/Documents/Tower/Build_Clover/bin/edk2build_1.sh 
+		cloversize=$(ls -l ~/src/edk2_micky/Clover/CloverPackage/sym/*.zip | awk '{print $5}') 
+	done
 	
 	# Remove old CLOVER in workspace 
 #	rm -rf ~/Documents/Tower/Build_Clover/build/* 
