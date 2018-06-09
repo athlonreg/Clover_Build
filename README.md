@@ -10,8 +10,6 @@
 ## Changelog
 - 4523: an attempt to cure hibernation in a case of two HDD by slice2009 -- 2018-06-09
  
-- 4523: an attempt to cure hibernation in a case of two HDD by slice2009 -- 2018-06-09
- 
 - 4522: fix hibernation issue when two drives in system by slice2009 -- 2018-06-08
  
 - 4521: corrected switch menu navigation by slice2009 -- 2018-06-07
