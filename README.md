@@ -8,6 +8,8 @@
 - Micky1979
 
 ## Changelog
+- 4525: fix package _title and _description, by vector sigma by slice2009 -- 2018-06-10
+ 
 - 4524: working Base.h for UDK2018 by slice2009 -- 2018-06-10
 
 - 4523: an attempt to cure hibernation in a case of two HDD by slice2009 -- 2018-06-09
