@@ -11,6 +11,8 @@
 - Micky1979
 
 ## Changelog
+- 4532: sync edk2 svn r27295; update build_rule.txt by zenith432 -- 2018-06-11
+ 
 - 4531: fix theme and dsdt submenu handling by slice2009 -- 2018-06-11
  
 - 4530: correct folder moving (stupid xcode) by slice2009 -- 2018-06-11
