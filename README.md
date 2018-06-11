@@ -8,6 +8,8 @@
 - Micky1979
 
 ## Changelog
+- 4528: update package by vector sigma by slice2009 -- 2018-06-11
+ 
 - 4527: reverted back UDK2018 patches by slice2009 -- 2018-06-11
  
 - 4526: special way for hibernation on INSYDE UEFI BIOS by slice2009 -- 2018-06-11
