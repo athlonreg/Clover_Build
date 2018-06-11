@@ -84,8 +84,8 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 
 	# Push to GitHub
 	cd ~/Documents/Tower/Clover_Build/
-	sed -i -e '10a\ ' README.md
-	sed -i -e "10a\- $log -- $updatetime" README.md
+	sed -i -e '13a\ ' README.md
+	sed -i -e "13a\- $log -- $updatetime" README.md
 	git add .
 	git commit -m "$log"
 	# Copy EFI drivers to Gitee workspace 
