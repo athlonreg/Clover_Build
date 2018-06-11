@@ -11,6 +11,8 @@
 - Micky1979
 
 ## Changelog
+- 4531: fix theme and dsdt submenu handling by slice2009 -- 2018-06-11
+ 
 - 4530: correct folder moving (stupid xcode) by slice2009 -- 2018-06-11
  
 - 4528: update package by vector sigma by slice2009 -- 2018-06-11
