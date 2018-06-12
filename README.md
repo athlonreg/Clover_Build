@@ -11,6 +11,8 @@
 - Micky1979
 
 ## Changelog
+- 4537: update using subversion client by slice2009 -- 2018-06-13
+ 
 - 4536: cleanup and check kernel/kext patches for maintenance by shelocks -- 2018-06-12
  
 - 4535: Make Acpi compile again by zenith432 -- 2018-06-12
