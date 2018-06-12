@@ -11,6 +11,8 @@
 - Micky1979
 
 ## Changelog
+- 4536: cleanup and check kernel/kext patches for maintenance by shelocks -- 2018-06-12
+ 
 - 4535: Make Acpi compile again by zenith432 -- 2018-06-12
  
 - 4533: fix NASM_PATH for XCODE8 toolset by slice2009 -- 2018-06-12
