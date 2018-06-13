@@ -11,6 +11,8 @@
 - Micky1979
 
 ## Changelog
+- 4539: Update CloverThemeManager to v0.76.7 by blackosx -- 2018-06-13
+ 
 - 4538: dont check xcode version, assume it is greater then 4 by slice2009 -- 2018-06-13
  
 - 4537: update using subversion client by slice2009 -- 2018-06-13
