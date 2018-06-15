@@ -26,7 +26,7 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 	
 	# Judge local CLOVER size to avoid error 
 	cloversize=$(ls -l ~/src/UDK2018/Clover/CloverPackage/sym/*.zip | awk '{print $5}') 
-	while [[ $cloversize < 13000000 ]] 
+	while [[ $cloversize < 12000000 ]] 
 	do
 		exit 1
 #		zsh ~/Documents/Tower/Build_Clover/bin/udkbuild.sh 

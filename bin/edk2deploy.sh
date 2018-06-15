@@ -21,7 +21,7 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 	
 	# Judge local CLOVER size to avoid error 
 	cloversize=$(ls -l ~/src/edk2_micky/Clover/CloverPackage/sym/*.zip | awk '{print $5}') 
-	while [[ $cloversize < 13000000 ]] 
+	while [[ $cloversize < 12000000 ]] 
 	do
 		~/Documents/Tower/Build_Clover/bin/edk2build_1.sh 
 		cloversize=$(ls -l ~/src/edk2_micky/Clover/CloverPackage/sym/*.zip | awk '{print $5}') 
