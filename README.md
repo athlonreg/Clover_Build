@@ -11,6 +11,8 @@
 - Micky1979
 
 ## Changelog
+- 4543: hidden visilibity reduces code size with clang by zenith432 -- 2018-06-15
+ 
 - 4542: exclude mtoc binary from clover sources  by slice2009 -- 2018-06-15
  
 - 4539: Update CloverThemeManager to v0.76.7 by blackosx -- 2018-06-13
