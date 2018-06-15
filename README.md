@@ -11,6 +11,8 @@
 - [Micky1979's build_clover shell](https://github.com/Micky1979/Build_Clover)
 
 ## Changelog
+- 4544: mojave compatibility for the package installer (64 bit only with Xcode 10 +) by vectosigma -- 2018-06-16
+ 
 - 4543: hidden visilibity reduces code size with clang by zenith432
 
 - 4542: exclude mtoc binary from clover sources  by slice2009 -- 2018-06-15
