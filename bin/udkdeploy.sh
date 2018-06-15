@@ -22,14 +22,15 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 #	rm -rf ~/Documents/Tower/Clover_Build/build/* 
 #	rm -rf ~/Documents/Tower/Build_Clover_GitLab/build/* 
 	
-	~/Documents/Tower/Build_Clover/bin/udkbuild.sh
+	zsh ~/Documents/Tower/Build_Clover/bin/udkbuild.sh
 	
 	# Judge local CLOVER size to avoid error 
 	cloversize=$(ls -l ~/src/UDK2018/Clover/CloverPackage/sym/*.zip | awk '{print $5}') 
 	while [[ $cloversize < 13000000 ]] 
 	do
-		~/Documents/Tower/Build_Clover/bin/udkbuild.sh 
-		cloversize=$(ls -l ~/src/UDK2018/Clover/CloverPackage/sym/*.zip | awk '{print $5}') 
+		exit 1
+#		zsh ~/Documents/Tower/Build_Clover/bin/udkbuild.sh 
+#		cloversize=$(ls -l ~/src/UDK2018/Clover/CloverPackage/sym/*.zip | awk '{print $5}') 
 	done
 	
 	# Copy CLOVER to Gitee workspace 
@@ -59,7 +60,7 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 	git add . 
 	git commit -m "$log"
 	# Copy EFI drivers to Gitee workspace 
-	rm -rf ~/Documents/Tower/Build_Clover/drivers64UEFI/*.efi 
+#	rm -rf ~/Documents/Tower/Build_Clover/drivers64UEFI/*.efi 
 	cp ~/src/UDK2018/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/*.efi ~/Documents/Tower/Build_Clover/drivers64UEFI/ 
 	cp ~/src/UDK2018/Clover/CloverPackage/CloverV2/drivers-Off/drivers64/*.efi ~/Documents/Tower/Build_Clover/drivers64UEFI/ 
 	cp ~/drivers64UEFI/apfs*.efi ~/Documents/Tower/Build_Clover/drivers64UEFI/ 
@@ -74,7 +75,7 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 	git add .
 	git commit -m "$log"
 	# Copy EFI drivers to Gitee workspace 
-	rm -rf ~/Documents/Tower/Build_Clover_GitLab/drivers64UEFI/*.efi 
+#	rm -rf ~/Documents/Tower/Build_Clover_GitLab/drivers64UEFI/*.efi 
 	cp ~/src/UDK2018/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/*.efi ~/Documents/Tower/Build_Clover_GitLab/drivers64UEFI/ 
 	cp ~/src/UDK2018/Clover/CloverPackage/CloverV2/drivers-Off/drivers64/*.efi ~/Documents/Tower/Build_Clover_GitLab/drivers64UEFI/ 
 	cp ~/drivers64UEFI/apfs*.efi ~/Documents/Tower/Build_Clover_GitLab/drivers64UEFI/ 
@@ -89,7 +90,7 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 	git add .
 	git commit -m "$log"
 	# Copy EFI drivers to Gitee workspace 
-	rm -rf ~/Documents/Tower/Clover_Build/drivers64UEFI/*.efi 
+#	rm -rf ~/Documents/Tower/Clover_Build/drivers64UEFI/*.efi 
 	cp ~/src/UDK2018/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/*.efi ~/Documents/Tower/Clover_Build/drivers64UEFI/ 
 	cp ~/src/UDK2018/Clover/CloverPackage/CloverV2/drivers-Off/drivers64/*.efi ~/Documents/Tower/Clover_Build/drivers64UEFI/ 
 	cp ~/drivers64UEFI/apfs*.efi ~/Documents/Tower/Clover_Build/drivers64UEFI/ 
