@@ -11,6 +11,8 @@
 - [Micky1979's build_clover shell](https://github.com/Micky1979/Build_Clover)
 
 ## Changelog
+- 4547: Update buildnasm.sh by zenith432 -- 2018-06-16
+ 
 - 4546: eliminate warnings by new clang by slice2009 -- 2018-06-16
  
 - 4544: mojave compatibility for the package installer (64 bit only with Xcode 10 +) by vectosigma -- 2018-06-16
