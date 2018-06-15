@@ -5,10 +5,10 @@
 `GitHub`部署速度可能跟不上，当发现源码有更新但本仓库没有及时跟进时，请前往`Gitee`找相应仓库，[传送门](https://gitee.com/athlonreg/Build_Clover)
 
 ## Credits
-- `Clover Team`
+- [Clover Team's clover source](https://sourceforge.net/projects/cloverefiboot/files/)
 - [vit9696's AptioFixpkg](https://github.com/vit9696/AptioFixPkg)
-- zenith432
-- Micky1979
+- [acidanthera's ApfsSupportPkg](https://github.com/acidanthera/ApfsSupportPkg)
+- [Micky1979's build_clover shell](https://github.com/Micky1979/Build_Clover)
 
 ## Changelog
 - 4543: hidden visilibity reduces code size with clang by zenith432
