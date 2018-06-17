@@ -11,6 +11,8 @@
 - [Micky1979's build_clover shell](https://github.com/Micky1979/Build_Clover)
 
 ## Changelog
+- 4550: download AptioFix and ApfsSupport from GitHub during build by slice2009 -- 2018-06-17
+ 
 - 4549: successful Shell compilation by Clover script by slice2009 -- 2018-06-17
  
 - 4548: Update URLs by zenith432 -- 2018-06-16
