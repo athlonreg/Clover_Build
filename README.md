@@ -11,6 +11,8 @@
 - [Micky1979's build_clover shell](https://github.com/Micky1979/Build_Clover)
 
 ## Changelog
+- 4557: Set SDKROOT in buildmtoc.sh by zenith432 -- 2018-06-17
+ 
 - 4556: add Shell64U.efi as build product to ignore list by zenith432 -- 2018-06-17
  
 - 4555: copy shell application during building by slice2009 -- 2018-06-17
