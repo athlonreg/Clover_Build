@@ -65,7 +65,6 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 #	rm -rf ~/Documents/Tower/Build_Clover/drivers64UEFI/*.efi 
 	cp ~/src/edk2_micky/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/*.efi ~/Documents/Tower/Build_Clover/drivers64UEFI/ 
 	cp ~/src/edk2_micky/Clover/CloverPackage/CloverV2/drivers-Off/drivers64/*.efi ~/Documents/Tower/Build_Clover/drivers64UEFI/ 
-	cp ~/drivers64UEFI/apfs*.efi ~/Documents/Tower/Build_Clover/drivers64UEFI/ 
 	git add .
 	git commit -m "Update all EFI drivers"
 #	git tag -a $git_tag -m "$log"
@@ -82,7 +81,6 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 #	rm -rf ~/Documents/Tower/Build_Clover_GitLab/drivers64UEFI/*.efi 
 	cp ~/src/edk2_micky/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/*.efi ~/Documents/Tower/Build_Clover_GitLab/drivers64UEFI/ 
 	cp ~/src/edk2_micky/Clover/CloverPackage/CloverV2/drivers-Off/drivers64/*.efi ~/Documents/Tower/Build_Clover_GitLab/drivers64UEFI/ 
-	cp ~/drivers64UEFI/apfs*.efi ~/Documents/Tower/Build_Clover_GitLab/drivers64UEFI/ 
 	git add .
 	git commit -m "Update all EFI drivers"
 #	git tag -a $git_tag -m "$log"
@@ -99,7 +97,6 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 #	rm -rf ~/Documents/Tower/Clover_Build/drivers64UEFI/*.efi 
 	cp ~/src/edk2_micky/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/*.efi ~/Documents/Tower/Clover_Build/drivers64UEFI/ 
 	cp ~/src/edk2_micky/Clover/CloverPackage/CloverV2/drivers-Off/drivers64/*.efi ~/Documents/Tower/Clover_Build/drivers64UEFI/ 
-	cp ~/drivers64UEFI/apfs*.efi ~/Documents/Tower/Clover_Build/drivers64UEFI/ 
 	git add .
 	git commit -m "Update all EFI drivers"
 #	git tag -a $git_tag -m "$log"
