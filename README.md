@@ -11,6 +11,8 @@
 - [Micky1979's build_clover shell](https://github.com/Micky1979/Build_Clover)
 
 ## Changelog
+- 4563: Fixes commit 4562 by philippetev -- 2018-06-21
+ 
 - 4562: accept building scripts by vector sigma by slice2009 -- 2018-06-21
  
 - 4561: svg: add functions implementation by slice2009 -- 2018-06-21
