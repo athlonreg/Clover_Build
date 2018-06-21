@@ -11,6 +11,8 @@
 - [Micky1979's build_clover shell](https://github.com/Micky1979/Build_Clover)
 
 ## Changelog
+- 4561: svg: add functions implementation by slice2009 -- 2018-06-21
+ 
 - 4560: draft implementation of SVG support by slice2009 -- 2018-06-21
 
 - 4559: Review XCODE settings in tools_def.txt and Clover.dsc by zenith432 -- 2018-06-20
