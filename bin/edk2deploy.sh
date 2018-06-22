@@ -10,21 +10,27 @@ log=$(echo "\n$org" | sed -n '4p')
 log="$pro_ver: $log by $author" 
 
 # git_tag="r${pro_ver}"
-cloversize=1
+cloverisosize=1
+cloverpkgsize=1
 # flag=0
 
 # Build 
 cd ~/Documents/Tower/Build_Clover/ 
 if [[ ${pro_ver} > ${curr_ver} ]] ; then 
 	
-	~/Documents/Tower/Build_Clover/bin/edk2build_1.sh 
+	~/Documents/Tower/Build_Clover/bin/Build_Clover.command 
+#	~/Documents/Tower/Build_Clover/bin/edk2build_1.sh
 	
 	# Judge local CLOVER size to avoid error 
-	cloversize=$(ls -l ~/src/edk2_micky/Clover/CloverPackage/sym/*.zip | awk '{print $5}') 
-	while [[ $cloversize < 12000000 ]] 
+	cloverisosize=$(ls -l ~/src/edk2_micky/Clover/CloverPackage/sym/*.zip | awk '{print $5}') 
+	cloverpkgsize=$(ls -l ~/src/edk2_micky/Clover/CloverPackage/sym/CloverISO-${pro_ver}/*.iso | awk '{print $5}') 
+	while [[ $cloverisosize < 12000000 || $cloverpkgsize < 12000000 ]] 
 	do
-		~/Documents/Tower/Build_Clover/bin/edk2build_1.sh 
-		cloversize=$(ls -l ~/src/edk2_micky/Clover/CloverPackage/sym/*.zip | awk '{print $5}') 
+		exit 1
+#		~/Documents/Tower/Build_Clover/bin/Build_Clover.command 
+#		~/Documents/Tower/Build_Clover/bin/edk2build_1.sh
+#		cloverisosize=$(ls -l ~/src/edk2_micky/Clover/CloverPackage/sym/*.zip | awk '{print $5}') 
+#		cloverpkgsize=$(ls -l ~/src/edk2_micky/Clover/CloverPackage/sym/CloverISO-${pro_ver}/*.iso | awk '{print $5}')
 	done
 	
 	# Remove old CLOVER in workspace 
