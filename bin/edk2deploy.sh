@@ -22,8 +22,8 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 #	~/Documents/Tower/Build_Clover/bin/edk2build_1.sh
 	
 	# Judge local CLOVER size to avoid error 
-	cloverisosize=$(ls -l ~/src/edk2_micky/Clover/CloverPackage/sym/*.zip | awk '{print $5}') 
-	cloverpkgsize=$(ls -l ~/src/edk2_micky/Clover/CloverPackage/sym/CloverISO-${pro_ver}/*.iso | awk '{print $5}') 
+	cloverpkgsize=$(ls -l ~/src/edk2_micky/Clover/CloverPackage/sym/*.zip | awk '{print $5}') 
+	cloverisosize=$(ls -l ~/src/edk2_micky/Clover/CloverPackage/sym/CloverISO-${pro_ver}/*.iso | awk '{print $5}') 
 	while [[ $cloverisosize < 12000000 || $cloverpkgsize < 12000000 ]] 
 	do
 		exit 1

@@ -26,8 +26,8 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 	zsh ~/Documents/Tower/Build_Clover/bin/udkbuild.sh
 	
 	# Judge local CLOVER size to avoid error 
-	cloverisosize=$(ls -l ~/src/UDK2018/Clover/CloverPackage/sym/*.zip | awk '{print $5}') 
-	cloverpkgsize=$(ls -l ~/src/UDK2018/Clover/CloverPackage/sym/CloverISO-${pro_ver}/*.iso | awk '{print $5}') 
+	cloverpkgsize=$(ls -l ~/src/UDK2018/Clover/CloverPackage/sym/*.zip | awk '{print $5}') 
+	cloverisosize=$(ls -l ~/src/UDK2018/Clover/CloverPackage/sym/CloverISO-${pro_ver}/*.iso | awk '{print $5}') 
 	while [[ $cloverisosize < 12000000 || $cloverpkgsize < 12000000 ]] 
 	do
 		exit 1
