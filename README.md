@@ -9,6 +9,7 @@
 - [vit9696's AptioFixpkg](https://github.com/vit9696/AptioFixPkg)
 - [acidanthera's ApfsSupportPkg](https://github.com/acidanthera/ApfsSupportPkg)
 - [Micky1979's build_clover shell](https://github.com/Micky1979/Build_Clover)
+- [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
 - 4574: basic text parsing by jamislike by slice2009 -- 2018-06-23
