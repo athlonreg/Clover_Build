@@ -71,8 +71,11 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 #	rm -rf ~/Documents/Tower/Build_Clover/drivers64UEFI/*.efi 
 	cp ~/src/edk2_micky/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/*.efi ~/Documents/Tower/Build_Clover/drivers64UEFI/ 
 	cp ~/src/edk2_micky/Clover/CloverPackage/CloverV2/drivers-Off/drivers64/*.efi ~/Documents/Tower/Build_Clover/drivers64UEFI/ 
-	git add .
-	git commit -m "Update all EFI drivers"
+	for i in $(ls -l ~/Documents/Tower/Build_Clover/drivers64UEFI | grep -v total | awk '{print $9}') 
+	do 
+		git add ${i} 
+		git commit -m "Update ${i} based on Clover_v2.4k_r${pro_ver}"
+	done
 #	git tag -a $git_tag -m "$log"
 #	git push origin $git_tag
 	git push origin master 
@@ -87,8 +90,11 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 #	rm -rf ~/Documents/Tower/Build_Clover_GitLab/drivers64UEFI/*.efi 
 	cp ~/src/edk2_micky/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/*.efi ~/Documents/Tower/Build_Clover_GitLab/drivers64UEFI/ 
 	cp ~/src/edk2_micky/Clover/CloverPackage/CloverV2/drivers-Off/drivers64/*.efi ~/Documents/Tower/Build_Clover_GitLab/drivers64UEFI/ 
-	git add .
-	git commit -m "Update all EFI drivers"
+	for i in $(ls -l ~/Documents/Tower/Build_Clover_GitLab/drivers64UEFI | grep -v total | awk '{print $9}') 
+	do 
+		git add ${i} 
+		git commit -m "Update ${i} based on Clover_v2.4k_r${pro_ver}"
+	done
 #	git tag -a $git_tag -m "$log"
 #	git push origin $git_tag
 	git push origin master
@@ -103,8 +109,11 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 #	rm -rf ~/Documents/Tower/Clover_Build/drivers64UEFI/*.efi 
 	cp ~/src/edk2_micky/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/*.efi ~/Documents/Tower/Clover_Build/drivers64UEFI/ 
 	cp ~/src/edk2_micky/Clover/CloverPackage/CloverV2/drivers-Off/drivers64/*.efi ~/Documents/Tower/Clover_Build/drivers64UEFI/ 
-	git add .
-	git commit -m "Update all EFI drivers"
+	for i in $(ls -l ~/Documents/Tower/Clover_Build/drivers64UEFI | grep -v total | awk '{print $9}') 
+	do 
+		git add ${i} 
+		git commit -m "Update ${i} based on Clover_v2.4k_r${pro_ver}"
+	done
 #	git tag -a $git_tag -m "$log"
 #	git push origin $git_tag
 	git push origin master
