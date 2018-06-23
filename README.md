@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4576: Set LANInjection default to TRUE, as it used to be before r4497, to prevent changes in system identification for iMessage by asava -- 2018-06-23
+ 
 - 4575: rudimentary support for 'image' element. aspect ratio not fixed to 1 when rendering, by aksdfauytv by slice2009 -- 2018-06-23
  
 - 4574: basic text parsing by jamislike by slice2009 -- 2018-06-23
