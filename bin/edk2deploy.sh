@@ -24,7 +24,7 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 	# Judge local CLOVER size to avoid error 
 	cloverpkgsize=$(ls -l ~/src/edk2_micky/Clover/CloverPackage/sym/*.zip | awk '{print $5}') 
 	cloverisosize=$(ls -l ~/src/edk2_micky/Clover/CloverPackage/sym/CloverISO-${pro_ver}/*.iso | awk '{print $5}') 
-	while [[ $cloverisosize < 12000000 || $cloverpkgsize < 12000000 ]] 
+	while [[ $cloverpkgsize < 10000000 || $cloverisosize < 10000000 ]] 
 	do
 		exit 1
 #		~/Documents/Tower/Build_Clover/bin/Build_Clover.command 
