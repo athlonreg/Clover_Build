@@ -11,6 +11,8 @@
 - [Micky1979's build_clover shell](https://github.com/Micky1979/Build_Clover)
 
 ## Changelog
+- 4574: basic text parsing by jamislike by slice2009 -- 2018-06-23
+ 
 - 4571: Minimize dependencies in clover-genconfig; revert part of 4569 by zenith432 -- 2018-06-22
 
 - 4569: Remove include statements from .h files in clover-genconfig by zenith432 -- 2018-06-22
