@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4578: multiple qsort by zenith432 -- 2018-06-25
+ 
 - 4577: fixed external drivers copy, allow duplicate optional drivers by vectosigma -- 2018-06-23
  
 - 4576: Set LANInjection default to TRUE, as it used to be before r4497, to prevent changes in system identification for iMessage by asava -- 2018-06-23
