@@ -69,7 +69,7 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 	cp ~/drivers64UEFI/apfs*.efi ~/Documents/Tower/Build_Clover/drivers64UEFI/ 
 	for i in $(ls -l ~/Documents/Tower/Build_Clover/drivers64UEFI | grep -v total | awk '{print $9}') 
 	do 
-		git add ${i} 
+		git add drivers64UEFI/${i} 
 		git commit -m "Update ${i} based on Clover_v2.4k_r${pro_ver}"
 	done
 	git push origin master 
@@ -87,7 +87,7 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 	cp ~/drivers64UEFI/apfs*.efi ~/Documents/Tower/Build_Clover_GitLab/drivers64UEFI/ 
 	for i in $(ls -l ~/Documents/Tower/Build_Clover_GitLab/drivers64UEFI | grep -v total | awk '{print $9}') 
 	do 
-		git add ${i} 
+		git add drivers64UEFI/${i} 
 		git commit -m "Update ${i} based on Clover_v2.4k_r${pro_ver}"
 	done
 	git push origin master
@@ -105,7 +105,7 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 	cp ~/drivers64UEFI/apfs*.efi ~/Documents/Tower/Clover_Build/drivers64UEFI/ 
 	for i in $(ls -l ~/Documents/Tower/Clover_Build/drivers64UEFI | grep -v total | awk '{print $9}') 
 	do 
-		git add ${i} 
+		git add drivers64UEFI/${i} 
 		git commit -m "Update ${i} based on Clover_v2.4k_r${pro_ver}"
 	done
 	git push origin master
