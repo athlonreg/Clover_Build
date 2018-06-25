@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4579: specific qsort will be faster then common by slice2009 -- 2018-06-25
+ 
 - 4578: multiple qsort by zenith432 -- 2018-06-25
  
 - 4577: fixed external drivers copy, allow duplicate optional drivers by vectosigma -- 2018-06-23
