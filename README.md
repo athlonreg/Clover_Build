@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4580: fix several bugs in nanosvg by slice2009 -- 2018-06-27
+ 
 - 4579: specific qsort will be faster then common by slice2009 -- 2018-06-25
  
 - 4578: multiple qsort by zenith432 -- 2018-06-25
