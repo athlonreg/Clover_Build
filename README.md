@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4584: sync edk2 svn r27429 by zenith432 -- 2018-06-28
+ 
 - 4583: correct sign print by slice2009 -- 2018-06-28
  
 - 4581: more nanosvg fixes by slice2009 -- 2018-06-27
