@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4583: correct sign print by slice2009 -- 2018-06-28
+ 
 - 4581: more nanosvg fixes by slice2009 -- 2018-06-27
  
 - 4580: fix several bugs in nanosvg by slice2009 -- 2018-06-27
