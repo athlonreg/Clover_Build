@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4586: correct group attribute to show Tiger by slice2009 -- 2018-06-29
+ 
 - 4584: sync edk2 svn r27429 by zenith432 -- 2018-06-28
  
 - 4583: correct sign print by slice2009 -- 2018-06-28
