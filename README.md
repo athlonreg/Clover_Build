@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4587: fix that causes a hang on boot in 10.14 beta when using Kaby Lake-R UHD Graphics by shelocks -- 2018-07-03
+ 
 - 4586: correct group attribute to show Tiger by slice2009 -- 2018-06-29
  
 - 4584: sync edk2 svn r27429 by zenith432 -- 2018-06-28
