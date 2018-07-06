@@ -63,8 +63,8 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 # -------------------------------------------------------------------------------------------------------------------->
 	# Push to Gitee
 	cd ~/Documents/Tower/Build_Clover/ 
-	sed -i -e '11a\ ' README.md
-	sed -i -e "11a\- $log -- $updatetime" README.md 
+	gsed -i -e '11a\ ' README.md
+	gsed -i -e "11a\- $log -- $updatetime" README.md 
 	git add . 
 	git commit -m "$log"
 	# Copy EFI drivers to Gitee workspace 
@@ -82,8 +82,8 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 
 	# Push to GitLab
 	cd ~/Documents/Tower/Build_Clover_GitLab/
-	sed -i -e '11a\ ' README.md
-	sed -i -e "11a\- $log -- $updatetime" README.md
+	gsed -i -e '11a\ ' README.md
+	gsed -i -e "11a\- $log -- $updatetime" README.md
 	git add .
 	git commit -m "$log"
 	# Copy EFI drivers to Gitee workspace 
@@ -101,8 +101,8 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 
 	# Push to GitHub
 	cd ~/Documents/Tower/Clover_Build/
-	sed -i -e '14a\ ' README.md
-	sed -i -e "14a\- $log -- $updatetime" README.md
+	gsed -i -e '14a\ ' README.md
+	gsed -i -e "14a\- $log -- $updatetime" README.md
 	git add .
 	git commit -m "$log"
 	# Copy EFI drivers to Gitee workspace 

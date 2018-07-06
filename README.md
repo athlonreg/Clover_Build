@@ -12,6 +12,10 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4591: text formatting by slice2009 -- 2018-07-03
+
+- 4590: patch for ticket 485, by nms42 by slice2009 -- 2018-07-03
+
 - 4588: gradients repaired by slice2009 -- 2018-07-03
  
 - 4587: fix that causes a hang on boot in 10.14 beta when using Kaby Lake-R UHD Graphics by shelocks -- 2018-07-03
