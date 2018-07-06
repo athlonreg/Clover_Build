@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4593: CSS class of style supported by slice2009 -- 2018-07-07
+ 
 - 4592: draft font support by slice2009 -- 2018-07-06
  
 - 4591: text formatting by slice2009 -- 2018-07-03
