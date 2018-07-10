@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4596: speedup rasterizer by MalcolmMcLean by slice2009 -- 2018-07-10
+ 
 - 4595: fix mistakes in previous commit by slice2009 -- 2018-07-07
  
 - 4593: CSS class of style supported by slice2009 -- 2018-07-07
