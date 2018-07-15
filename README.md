@@ -12,8 +12,6 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
-- 4600: some debugging by slice2009 -- 2018-07-14
- 
 - 4596: speedup rasterizer by MalcolmMcLean by slice2009 -- 2018-07-10
  
 - 4595: fix mistakes in previous commit by slice2009 -- 2018-07-07
