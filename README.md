@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4603: Update to binutils 2.31; sync UDK2018 branch by zenith432 -- 2018-07-17
+ 
 - 4602: padding structures to eliminate allocation bugs by slice2009 -- 2018-07-16
  
 - 4601: update platformdata and add MacBookPro15,x info by shelocks -- 2018-07-15
