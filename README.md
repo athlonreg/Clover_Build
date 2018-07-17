@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4604: correct memory allocation by slice2009 -- 2018-07-17
+ 
 - 4603: Update to binutils 2.31; sync UDK2018 branch by zenith432 -- 2018-07-17
  
 - 4602: padding structures to eliminate allocation bugs by slice2009 -- 2018-07-16
