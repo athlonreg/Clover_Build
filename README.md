@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4605: IPF support was dropped from EDK2 in r27483 by zenith432 -- 2018-07-17
+ 
 - 4604: correct memory allocation by slice2009 -- 2018-07-17
  
 - 4603: Update to binutils 2.31; sync UDK2018 branch by zenith432 -- 2018-07-17
