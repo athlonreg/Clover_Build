@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4607: correct font drawing: inner holes by slice2009 -- 2018-07-19
+ 
 - 4606: add coffeelake framebuffer info by shelocks -- 2018-07-18
  
 - 4605: IPF support was dropped from EDK2 in r27483 by zenith432 -- 2018-07-17
