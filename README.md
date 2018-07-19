@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4608: cleanup all framebuffer info. thanks to vit9696 by shelocks -- 2018-07-19
+ 
 - 4607: correct font drawing: inner holes by slice2009 -- 2018-07-19
  
 - 4606: add coffeelake framebuffer info by shelocks -- 2018-07-18
