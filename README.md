@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4612: Clover.PrefPane and CloverUpdater updated with moder objective-c code. xibs requires Xcode 5.1+ by vectosigma -- 2018-07-20
+ 
 - 4610: implement links to shapes and gradients by slice2009 -- 2018-07-20
  
 - 4609: correct wrong part from r4608 by shelocks -- 2018-07-19
