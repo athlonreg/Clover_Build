@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4610: implement links to shapes and gradients by slice2009 -- 2018-07-20
+ 
 - 4609: correct wrong part from r4608 by shelocks -- 2018-07-19
  
 - 4608: cleanup all framebuffer info. thanks to vit9696 by shelocks -- 2018-07-19
