@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4615: ensure make clean delete apllications build folders by vectosigma -- 2018-07-20
+ 
 - 4614: separate own procedures from nanosvg by slice2009 -- 2018-07-20
  
 - 4612: Clover.PrefPane and CloverUpdater updated with moder objective-c code. xibs requires Xcode 5.1+ by vectosigma -- 2018-07-20
