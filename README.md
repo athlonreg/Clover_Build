@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4617: some cleanup and reformatting by slice2009 -- 2018-07-21
+ 
 - 4616: autolayout disabled for Clover prefpane by vectosigma -- 2018-07-20
  
 - 4615: ensure make clean delete apllications build folders by vectosigma -- 2018-07-20
