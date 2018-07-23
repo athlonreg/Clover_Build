@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4620: initial support for conic gradients by slice2009 -- 2018-07-24
+ 
 - 4619: allow gradients outside of defs by slice2009 -- 2018-07-24
  
 - 4618: added AptioFix3 into package by slice2009 -- 2018-07-21
