@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4622: improve atan2, initial implement text support by slice2009 -- 2018-07-25
+ 
 - 4620: initial support for conic gradients by slice2009 -- 2018-07-24
  
 - 4619: allow gradients outside of defs by slice2009 -- 2018-07-24
