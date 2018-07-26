@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4624: consider Disabled option for AddProperties by shelocks -- 2018-07-26
+ 
 - 4623: correct previous commit by slice2009 -- 2018-07-25
  
 - 4622: improve atan2, initial implement text support by slice2009 -- 2018-07-25
