@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4625: increase atan precision by slice2009 -- 2018-07-27
+ 
 - 4624: consider Disabled option for AddProperties by shelocks -- 2018-07-26
  
 - 4623: correct previous commit by slice2009 -- 2018-07-25
