@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4630: new look for Clover installer, graphics and descriptions, by Clovy by slice2009 -- 2018-08-02
+ 
 - 4629: some step in SVG parsing over by slice2009 -- 2018-08-02
  
 - 4628: update MacBookPro15,2 info by shelocks -- 2018-08-01
