@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4629: some step in SVG parsing over by slice2009 -- 2018-08-02
+ 
 - 4628: update MacBookPro15,2 info by shelocks -- 2018-08-01
  
 - 4627: add entry for Antergos by shelocks -- 2018-07-29
