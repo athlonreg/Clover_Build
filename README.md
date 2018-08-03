@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4632: cleanup the korean language in installer by shelocks -- 2018-08-03
+ 
 - 4631: correct some misprints in installer by slice2009 -- 2018-08-02
  
 - 4630: new look for Clover installer, graphics and descriptions, by Clovy by slice2009 -- 2018-08-02
