@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4634: workaround for ibtool in Xcode10 Beta that prevent compileling xibs in some system by vectosigma -- 2018-08-03
+ 
 - 4633: remove old key for KernelIvyXCPM, AsusAICPUPM by shelocks -- 2018-08-03
  
 - 4632: cleanup the korean language in installer by shelocks -- 2018-08-03
