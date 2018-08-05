@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4636: sorting drivers in the package also on apfs volumes by vectosigma -- 2018-08-04
+ 
 - 4635: ATOM CPU not supported FLEX_RATIO, ticket 488 by slice2009 -- 2018-08-04
  
 - 4634: workaround for ibtool in Xcode10 Beta that prevent compileling xibs in some system by vectosigma -- 2018-08-03
