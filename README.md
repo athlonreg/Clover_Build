@@ -14,6 +14,8 @@
 ## Changelog
 - 4639: new embedded theme by Clovy by slice2009 -- 2018-08-09
  
+- 4639: new embedded theme by Clovy by slice2009 -- 2018-08-09
+ 
 - 4637: add more linux distros entry, by Badruzeus by shelocks -- 2018-08-06
  
 - 4636: sorting drivers in the package also on apfs volumes by vectosigma -- 2018-08-04
