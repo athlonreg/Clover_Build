@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4641: Enabling external scripts that allow the package to read recordered choices selected. Fixed a bad statement in the stage 0 script by vectosigma -- 2018-08-09
+ 
 - 4639: new embedded theme by Clovy by slice2009 -- 2018-08-09
  
 - 4639: new embedded theme by Clovy by slice2009 -- 2018-08-09
