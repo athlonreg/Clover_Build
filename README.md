@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4646: some polishing of embedded themes, by Clovy by slice2009 -- 2018-08-14
+ 
 - 4645: changed apfssupport driver name by savvas by slice2009 -- 2018-08-13
  
 - 4643: allow support for use-def-rect in SVG by slice2009 -- 2018-08-10
