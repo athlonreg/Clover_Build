@@ -19,7 +19,6 @@ cd ~/Documents/Tower/Build_Clover/
 if [[ ${pro_ver} > ${curr_ver} ]] ; then 
 	
 	~/Documents/Tower/Build_Clover/bin/Build_Clover.command 
-#	~/Documents/Tower/Build_Clover/bin/edk2build_1.sh
 	
 	# Judge local CLOVER size to avoid error 
 	cloverpkgsize=$(ls -l ~/src/edk2_micky/Clover/CloverPackage/sym/*.zip | awk '{print $5}') 
@@ -28,7 +27,6 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 	do
 		exit 1
 #		~/Documents/Tower/Build_Clover/bin/Build_Clover.command 
-#		~/Documents/Tower/Build_Clover/bin/edk2build_1.sh
 #		cloverisosize=$(ls -l ~/src/edk2_micky/Clover/CloverPackage/sym/*.zip | awk '{print $5}') 
 #		cloverpkgsize=$(ls -l ~/src/edk2_micky/Clover/CloverPackage/sym/CloverISO-${pro_ver}/*.iso | awk '{print $5}')
 	done
