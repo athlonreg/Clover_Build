@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4648: correct order of matrix transformation by slice2009 -- 2018-08-17
+ 
 - 4647: begin theme parsing by slice2009 -- 2018-08-16
  
 - 4646: some polishing of embedded themes, by Clovy by slice2009 -- 2018-08-14
