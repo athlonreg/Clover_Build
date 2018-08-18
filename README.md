@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4650: correct link transformations by slice2009 -- 2018-08-18
+ 
 - 4649: fix mistake in atan2 leading to sharp artefaacts by slice2009 -- 2018-08-17
  
 - 4648: correct order of matrix transformation by slice2009 -- 2018-08-17
