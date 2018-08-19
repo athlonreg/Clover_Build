@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4651: prevent EmbeddedThemeType affects other themes by shelocks -- 2018-08-19
+ 
 - 4650: correct link transformations by slice2009 -- 2018-08-18
  
 - 4649: fix mistake in atan2 leading to sharp artefaacts by slice2009 -- 2018-08-17
