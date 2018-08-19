@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4652: fix a font color issue when change theme in GUI by shelocks -- 2018-08-19
+ 
 - 4651: prevent EmbeddedThemeType affects other themes by shelocks -- 2018-08-19
  
 - 4650: correct link transformations by slice2009 -- 2018-08-18
