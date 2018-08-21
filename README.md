@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4655: embedded theme polish be Clovy by slice2009 -- 2018-08-21
+ 
 - 4654: continue parsing vector theme by slice2009 -- 2018-08-21
  
 - 4652: fix a font color issue when change theme in GUI by shelocks -- 2018-08-19
