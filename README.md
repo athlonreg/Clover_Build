@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4658: include AppleSupportPkg into clover package by slice2009 -- 2018-08-24
+ 
 - 4657: begin theme.svg parsing by slice2009 -- 2018-08-22
  
 - 4655: embedded theme polish be Clovy by slice2009 -- 2018-08-21
