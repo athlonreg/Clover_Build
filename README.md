@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4659: cleanup and consider new format of Biosversion. add deviceid for Lakefield/JasperLake by shelocks -- 2018-08-24
+ 
 - 4658: include AppleSupportPkg into clover package by slice2009 -- 2018-08-24
  
 - 4657: begin theme.svg parsing by slice2009 -- 2018-08-22
