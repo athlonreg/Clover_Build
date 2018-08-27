@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4662: initial svg font support by slice2009 -- 2018-08-27
+ 
 - 4660: add drivers description in package, by Clovy by slice2009 -- 2018-08-27
  
 - 4659: cleanup and consider new format of Biosversion. add deviceid for Lakefield/JasperLake by shelocks -- 2018-08-24
