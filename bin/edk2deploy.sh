@@ -67,8 +67,10 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 	git commit -m "$log"
 	# Copy EFI drivers to Gitee workspace 
 #	rm -rf ~/Documents/Tower/Build_Clover/drivers64UEFI/*.efi 
-	cp ~/src/edk2_micky/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/*.efi ~/Documents/Tower/Build_Clover/drivers64UEFI/ 
-	cp ~/src/edk2_micky/Clover/CloverPackage/CloverV2/drivers-Off/drivers64/*.efi ~/Documents/Tower/Build_Clover/drivers64UEFI/ 
+	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverCD/EFI/CLOVER/drivers64UEFI/*.efi ~/Documents/Tower/Build_Clover/drivers64UEFI/ 
+	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverCD/EFI/CLOVER/drivers64/*.efi ~/Documents/Tower/Build_Clover/drivers64UEFI/ 
+	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverCD/EFI/CLOVER/drivers-Off/drivers64/*.efi ~/Documents/Tower/Build_Clover/drivers64UEFI/ 
+	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverCD/EFI/CLOVER/drivers-Off/drivers64UEFI/*.efi ~/Documents/Tower/Build_Clover/drivers64UEFI/ 
 	for i in $(ls -l ~/Documents/Tower/Build_Clover/drivers64UEFI | grep -v total | awk '{print $9}') 
 	do 
 		git add drivers64UEFI/${i} 
@@ -86,8 +88,10 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 	git commit -m "$log"
 	# Copy EFI drivers to Gitee workspace 
 #	rm -rf ~/Documents/Tower/Build_Clover_GitLab/drivers64UEFI/*.efi 
-	cp ~/src/edk2_micky/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/*.efi ~/Documents/Tower/Build_Clover_GitLab/drivers64UEFI/ 
-	cp ~/src/edk2_micky/Clover/CloverPackage/CloverV2/drivers-Off/drivers64/*.efi ~/Documents/Tower/Build_Clover_GitLab/drivers64UEFI/ 
+	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverCD/EFI/CLOVER/drivers64UEFI/*.efi ~/Documents/Tower/Build_Clover_GitLab/drivers64UEFI/ 
+	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverCD/EFI/CLOVER/drivers64/*.efi ~/Documents/Tower/Build_Clover_GitLab/drivers64UEFI/ 
+	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverCD/EFI/CLOVER/drivers-Off/drivers64/*.efi ~/Documents/Tower/Build_Clover_GitLab/drivers64UEFI/ 
+	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverCD/EFI/CLOVER/drivers-Off/drivers64UEFI/*.efi ~/Documents/Tower/Build_Clover_GitLab/drivers64UEFI/ 
 	for i in $(ls -l ~/Documents/Tower/Build_Clover_GitLab/drivers64UEFI | grep -v total | awk '{print $9}') 
 	do 
 		git add drivers64UEFI/${i} 
@@ -105,8 +109,10 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 	git commit -m "$log"
 	# Copy EFI drivers to Gitee workspace 
 #	rm -rf ~/Documents/Tower/Clover_Build/drivers64UEFI/*.efi 
-	cp ~/src/edk2_micky/Clover/CloverPackage/CloverV2/drivers-Off/drivers64UEFI/*.efi ~/Documents/Tower/Clover_Build/drivers64UEFI/ 
-	cp ~/src/edk2_micky/Clover/CloverPackage/CloverV2/drivers-Off/drivers64/*.efi ~/Documents/Tower/Clover_Build/drivers64UEFI/ 
+	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverCD/EFI/CLOVER/drivers64UEFI/*.efi ~/Documents/Tower/Clover_Build/drivers64UEFI/ 
+	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverCD/EFI/CLOVER/drivers64/*.efi ~/Documents/Tower/Clover_Build/drivers64UEFI/ 
+	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverCD/EFI/CLOVER/drivers-Off/drivers64/*.efi ~/Documents/Tower/Clover_Build/drivers64UEFI/ 
+	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverCD/EFI/CLOVER/drivers-Off/drivers64UEFI/*.efi ~/Documents/Tower/Clover_Build/drivers64UEFI/ 
 	for i in $(ls -l ~/Documents/Tower/Clover_Build/drivers64UEFI | grep -v total | awk '{print $9}') 
 	do 
 		git add drivers64UEFI/${i} 
