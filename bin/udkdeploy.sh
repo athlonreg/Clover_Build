@@ -24,7 +24,7 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 #	rm -rf ~/Documents/Tower/Build_Clover_GitLab/build/* 
 	
 #	zsh ~/Documents/Tower/Build_Clover/bin/udkbuild.sh
-	sh /Applications/Clover\ Builder.app/Contents/Resources/script
+	sh ~/Documents/Tower/Build_Clover/bin/udkbuild.sh
 	
 	# Judge local CLOVER size to avoid error 
 	cloverpkgsize=$(ls -l ~/src/UDK2018/Clover/CloverPackage/sym/*.zip | awk '{print $5}') 
