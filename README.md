@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4667: move AppleEvent into AppleKeyAggregator driver, by vit9696 by slice2009 -- 2018-09-08
+ 
 - 4664: avoid zero pointer referencing by slice2009 -- 2018-08-30
  
 - 4663: create rastr font based on svg font by slice2009 -- 2018-08-29
