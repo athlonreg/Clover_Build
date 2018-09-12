@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4669: correct using referenced images by slice2009 -- 2018-09-12
+ 
 - 4668: update packages info by slice2009 -- 2018-09-11
  
 - 4667: move AppleEvent into AppleKeyAggregator driver, by vit9696 by slice2009 -- 2018-09-08
