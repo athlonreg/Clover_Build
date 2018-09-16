@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4673: some security checks by slice2009 -- 2018-09-17
+ 
 - 4672: add name for new card by slice2009 -- 2018-09-15
  
 - 4671: accept text color by slice2009 -- 2018-09-14
