@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4676: exclude AppleKeyFeeder from default by shelocks -- 2018-09-26
+ 
 - 4674: basic implementation of symbol parsing by slice2009 -- 2018-09-20
  
 - 4673: some security checks by slice2009 -- 2018-09-17
