@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4678: return buildpkg.sh of r4676 by shelocks -- 2018-09-26
+ 
 - 4677: avoid conflicts between AppleUiSupport driver and old FV2 drivers when installing by shelocks -- 2018-09-26
  
 - 4676: exclude AppleKeyFeeder from default by shelocks -- 2018-09-26
