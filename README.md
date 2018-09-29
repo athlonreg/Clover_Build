@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4681: Always use Clover UefiShellLib by zenith432 -- 2018-09-29
+ 
 - 4680: Fix problem compiling shell by zenith432 -- 2018-09-29
  
 - 4679: sync edk2 svn r27956 by zenith432 -- 2018-09-27
