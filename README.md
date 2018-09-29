@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4682: revert some parts to original for AcpiPatcher from r4675 by shelocks -- 2018-09-29
+ 
 - 4681: Always use Clover UefiShellLib by zenith432 -- 2018-09-29
  
 - 4680: Fix problem compiling shell by zenith432 -- 2018-09-29
