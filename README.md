@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4683: fix a installation fail issue if AppleUiSupport exists from r4677 by shelocks -- 2018-09-30
+ 
 - 4682: revert some parts to original for AcpiPatcher from r4675 by shelocks -- 2018-09-29
  
 - 4681: Always use Clover UefiShellLib by zenith432 -- 2018-09-29
