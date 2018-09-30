@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4687: FileVault2 drivers are now optionals and stored in drivers-off/drivers6xx/FileVault2 by vectosigma -- 2018-10-01
+ 
 - 4686: revert to a unix version of AppleUiSupport postinstall script by Sherlocks by vectosigma -- 2018-09-30
  
 - 4685: fix description in package from r4674 by shelocks -- 2018-09-30
