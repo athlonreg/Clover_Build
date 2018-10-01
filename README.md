@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4690: Restored SMCHelper as mandatory driver by vectosigma -- 2018-10-01
+ 
 - 4689: Fixed driver name in AppleUiSupport/postinstall by vectosigma -- 2018-10-01
  
 - 4687: FileVault2 drivers are now optionals and stored in drivers-off/drivers6xx/FileVault2 by vectosigma -- 2018-10-01
