@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4691: fix for AcpiPatcher by rehabman by shelocks -- 2018-10-01
+ 
 - 4690: Restored SMCHelper as mandatory driver by vectosigma -- 2018-10-01
  
 - 4689: Fixed driver name in AppleUiSupport/postinstall by vectosigma -- 2018-10-01
