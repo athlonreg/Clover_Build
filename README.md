@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4693: Fixed FileVault 2 translations by vectosigma -- 2018-10-02
+ 
 - 4692: VirtualSMC support: checkout and compilation (XCODE5 only ATM) by vector sigma. Package implementation by Sherlocks by vectosigma -- 2018-10-02
  
 - 4691: fix for AcpiPatcher by rehabman by shelocks -- 2018-10-01
