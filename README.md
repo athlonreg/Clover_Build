@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4695: correct FileVault2 title/description by shelocks -- 2018-10-03
+ 
 - 4694: handle InjectKexts="Detect" when VirtualSMC.kext is used by rehabman by shelocks -- 2018-10-02
  
 - 4693: Fixed FileVault 2 translations by vectosigma -- 2018-10-02
