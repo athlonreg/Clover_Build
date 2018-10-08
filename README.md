@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4699: transform gradients in rasterizing by slice2009 -- 2018-10-09
+ 
 - 4698: fix AddPNLF for some laptop that can't control backlight by shelocks -- 2018-10-08
  
 - 4697: improve it and deal with treatment if system doesn't have backlight values by shelocks -- 2018-10-07
