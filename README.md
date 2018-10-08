@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4697: improve it and deal with treatment if system doesn't have backlight values by shelocks -- 2018-10-07
+ 
 - 4695: correct FileVault2 title/description by shelocks -- 2018-10-03
  
 - 4694: handle InjectKexts="Detect" when VirtualSMC.kext is used by rehabman by shelocks -- 2018-10-02
