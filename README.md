@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4703: inject EDID by Device Properties, be rehabman by slice2009 -- 2018-10-11
+ 
 - 4702: consider _UID for old intel graphics by shelocks -- 2018-10-10
  
 - 4701: update latest bios version by shelocks -- 2018-10-10
