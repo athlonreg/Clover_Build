@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4701: update latest bios version by shelocks -- 2018-10-10
+ 
 - 4700: fix compilation for acidantera by slice2009 -- 2018-10-10
  
 - 4699: transform gradients in rasterizing by slice2009 -- 2018-10-09
