@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4705: if MaxBacklight then Backlight by slice2009 -- 2018-10-13
+ 
 - 4704: use shell definitions from clover folder by slice2009 -- 2018-10-13
  
 - 4703: inject EDID by Device Properties, be rehabman by slice2009 -- 2018-10-11
