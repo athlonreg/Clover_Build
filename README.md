@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4707: improve IntelBacklight. by shelocks -- 2018-10-16
+ 
 - 4706: global mistake with name Scale by slice2009 -- 2018-10-14
  
 - 4705: if MaxBacklight then Backlight by slice2009 -- 2018-10-13
