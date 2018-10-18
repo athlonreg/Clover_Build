@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4712: correct MP5,1 bios version by shelocks -- 2018-10-18
+ 
 - 4710: add more image to parse by slice2009 -- 2018-10-18
  
 - 4709: take into account more theme icons by slice2009 -- 2018-10-17
