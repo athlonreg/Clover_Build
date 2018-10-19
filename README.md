@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4714: dont relate to parent group by slice2009 -- 2018-10-19
+ 
 - 4713: a new formula of intelbacklight for coffeelake by rehabman by shelocks -- 2018-10-18
  
 - 4712: correct MP5,1 bios version by shelocks -- 2018-10-18
