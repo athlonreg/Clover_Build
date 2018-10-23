@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4719: add prelang kbd option if want to keep language when updating macOS with native NVRAM. by shelocks -- 2018-10-23
+ 
 - 4717: prevent clover boot options from being deleted when NVRAM is reset by shelocks -- 2018-10-20
  
 - 4716: new way for reset native NVRAM in GUI by Sherlocks. thanks to vit9696. by shelocks -- 2018-10-20
