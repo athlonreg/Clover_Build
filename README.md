@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4721: update EFI Version for Mojave. by shelocks -- 2018-10-24
+ 
 - 4720: dont pretransform pathes by slice2009 -- 2018-10-24
  
 - 4719: add prelang kbd option if want to keep language when updating macOS with native NVRAM. by shelocks -- 2018-10-23
