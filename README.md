@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4723: gradients repaired by slice2009 -- 2018-10-27
+ 
 - 4722: few optimizations by slice2009 -- 2018-10-25
  
 - 4721: update EFI Version for Mojave. by shelocks -- 2018-10-24
