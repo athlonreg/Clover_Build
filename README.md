@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4726: fix brightness level problem of actual monitor when intelbacklight for sandy/ivy by shelocks -- 2018-10-28
+ 
 - 4725: vector theme rendering by slice2009 -- 2018-10-28
  
 - 4724: correct link distance is parseUse by slice2009 -- 2018-10-27
