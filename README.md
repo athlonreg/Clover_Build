@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4728: fix style classes by slice2009 -- 2018-11-02
+ 
 - 4727: correct opacity by clovy by slice2009 -- 2018-11-01
  
 - 4726: fix brightness level problem of actual monitor when intelbacklight for sandy/ivy by shelocks -- 2018-10-28
