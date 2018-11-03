@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4729: vector theme became usable by slice2009 -- 2018-11-03
+ 
 - 4728: fix style classes by slice2009 -- 2018-11-02
  
 - 4727: correct opacity by clovy by slice2009 -- 2018-11-01
