@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4731: more cases for scalable layout by slice2009 -- 2018-11-04
+ 
 - 4730: locate banner position by slice2009 -- 2018-11-04
  
 - 4729: vector theme became usable by slice2009 -- 2018-11-03
