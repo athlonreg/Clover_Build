@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4736: fix background scaling by slice2009 -- 2018-11-05
+ 
 - 4735: fix the issue with ascii codepage by slice2009 -- 2018-11-05
  
 - 4734: consider LEVW in detail according to cpu generation by shelocks -- 2018-11-04
