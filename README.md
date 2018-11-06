@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4740: using several fonts, template by slice2009 -- 2018-11-06
+ 
 - 4739: correcting text by slice2009 -- 2018-11-06
  
 - 4738: fix layout and main entries scaling by slice2009 -- 2018-11-06
