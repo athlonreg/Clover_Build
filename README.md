@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4744: add Macmini8,1 info. thanks to Rodion Shingarev by shelocks -- 2018-11-08
+ 
 - 4743: correct os_icon names, by blackosx by slice2009 -- 2018-11-08
  
 - 4741: correct transparency on embedded themes by clovy by slice2009 -- 2018-11-07
