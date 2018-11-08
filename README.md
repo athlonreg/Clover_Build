@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4745: update clovy theme by slice2009 -- 2018-11-09
+ 
 - 4744: add Macmini8,1 info. thanks to Rodion Shingarev by shelocks -- 2018-11-08
  
 - 4743: correct os_icon names, by blackosx by slice2009 -- 2018-11-08
