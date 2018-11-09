@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4746: add MacBookAir8,1 info by shelocks -- 2018-11-09
+ 
 - 4745: update clovy theme by slice2009 -- 2018-11-09
  
 - 4744: add Macmini8,1 info. thanks to Rodion Shingarev by shelocks -- 2018-11-08
