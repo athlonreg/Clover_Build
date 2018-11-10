@@ -18,6 +18,8 @@
  
 - 4750: increase geometry precision, by clovy by slice2009 -- 2018-11-10
  
+- 4750: increase geometry precision, by clovy by slice2009 -- 2018-11-10
+ 
 - 4749: using vector font drawing by slice2009 -- 2018-11-10
  
 - 4748: a possibility to inject commom FB for AMDRadeon, green compatible by slice2009 -- 2018-11-10
