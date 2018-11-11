@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4752: multilevel dithering, set is SVG by slice2009 -- 2018-11-12
+ 
 - 4751: fix UHD Graphics 630 when using high sierra. ticket #517 by shelocks -- 2018-11-11
  
 - 4751: fix UHD Graphics 630 when using high sierra. ticket #517 by shelocks -- 2018-11-11
