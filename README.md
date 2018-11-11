@@ -14,6 +14,8 @@
 ## Changelog
 - 4751: fix UHD Graphics 630 when using high sierra. ticket #517 by shelocks -- 2018-11-11
  
+- 4751: fix UHD Graphics 630 when using high sierra. ticket #517 by shelocks -- 2018-11-11
+ 
 - 4750: increase geometry precision, by clovy by slice2009 -- 2018-11-10
  
 - 4750: increase geometry precision, by clovy by slice2009 -- 2018-11-10
