@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4760: Update CloverThemeManager.app by blackosx -- 2018-11-15
+ 
 - 4758: dynamically change text height by slice2009 -- 2018-11-14
  
 - 4757: fix warning of 4756' by slice2009 -- 2018-11-13
