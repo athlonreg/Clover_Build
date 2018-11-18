@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4766: Update BGM theme with reduced glow Selection_big by blackosx -- 2018-11-18
+ 
 - 4765: cleanup and recheck smbios model codes from server by shelocks -- 2018-11-18
  
 - 4763: Update BGM theme to v1.9 by blackosx -- 2018-11-18
