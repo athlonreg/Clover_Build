@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4763: Update BGM theme to v1.9 by blackosx -- 2018-11-18
+ 
 - 4762: Sync BGM theme with theme repo by blackosx -- 2018-11-15
  
 - 4760: Update CloverThemeManager.app by blackosx -- 2018-11-15
