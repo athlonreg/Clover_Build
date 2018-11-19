@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4769: centered checkbox and background by slice2009 -- 2018-11-20
+ 
 - 4768: centered titles by slice2009 -- 2018-11-19
  
 - 4767: update latest bios version with EFI version by shelocks -- 2018-11-18
