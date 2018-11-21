@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4771: fix a bug with menu checkbits by slice2009 -- 2018-11-22
+ 
 - 4770: make BadgeScale for svg theme by slice2009 -- 2018-11-21
  
 - 4769: centered checkbox and background by slice2009 -- 2018-11-20
