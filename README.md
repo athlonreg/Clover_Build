@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4774: daylight in clovy theme by slice2009 -- 2018-11-24
+ 
 - 4772: enlarge clovy theme to 1366x768 by slice2009 -- 2018-11-23
  
 - 4771: fix a bug with menu checkbits by slice2009 -- 2018-11-22
