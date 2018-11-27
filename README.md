@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4777: theme.svg must be low case by slice2009 -- 2018-11-27
+ 
 - 4776: optimize clovy theme by slice2009 -- 2018-11-27
  
 - 4775: add igpu device id for whisky lake. correct chassis asset tag for MBP5,1 by shelocks -- 2018-11-25
