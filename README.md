@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4778: update smc keys from dump of virtualsmc by shelocks -- 2018-11-27
+ 
 - 4777: theme.svg must be low case by slice2009 -- 2018-11-27
  
 - 4776: optimize clovy theme by slice2009 -- 2018-11-27
