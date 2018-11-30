@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4784: fix image size calculation by slice2009 -- 2018-12-01
+ 
 - 4783: more alignments by clovy by slice2009 -- 2018-11-30
  
 - 4782: default icons for missing by slice2009 -- 2018-11-30
