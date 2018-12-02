@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4788: first approach to animation by slice2009 -- 2018-12-03
+ 
 - 4787: resolve conflict two commits by slice2009 -- 2018-12-03
  
 - 4786: more alingment by clovy by slice2009 -- 2018-12-02
