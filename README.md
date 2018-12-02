@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4786: more alingment by clovy by slice2009 -- 2018-12-02
+ 
 - 4785: revise bootcamp style, by Needy by slice2009 -- 2018-12-02
  
 - 4784: fix image size calculation by slice2009 -- 2018-12-01
