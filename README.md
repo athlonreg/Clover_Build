@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4791: Extend previous commit to rasterization by blackosx -- 2018-12-05
+ 
 - 4790: Allow Banner_night to be repositioned by blackosx -- 2018-12-05
  
 - 4789: working animation in vector theme by slice2009 -- 2018-12-04
