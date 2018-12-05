@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4792: security update by slice2009 -- 2018-12-06
+ 
 - 4791: Extend previous commit to rasterization by blackosx -- 2018-12-05
  
 - 4790: Allow Banner_night to be repositioned by blackosx -- 2018-12-05
