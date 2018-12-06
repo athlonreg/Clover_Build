@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4795: initial value for bootercfg will be from NVRAM by slice2009 -- 2018-12-07
+ 
 - 4792: security update by slice2009 -- 2018-12-06
  
 - 4791: Extend previous commit to rasterization by blackosx -- 2018-12-05
