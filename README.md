@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4797: accepted ticket 520 by slice2009 -- 2018-12-08
+ 
 - 4796: font-family allowed to be quoted as illustrator does by slice2009 -- 2018-12-07
  
 - 4795: initial value for bootercfg will be from NVRAM by slice2009 -- 2018-12-07
