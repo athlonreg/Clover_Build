@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4799: assign gradients for symbols by slice2009 -- 2018-12-08
+ 
 - 4798: take into account mirror transform by slice2009 -- 2018-12-08
  
 - 4797: accepted ticket 520 by slice2009 -- 2018-12-08
