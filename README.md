@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4804: fix warning by previous commit by slice2009 -- 2018-12-09
+ 
 - 4801: Removed DuetPkg from update.sh by philippetev -- 2018-12-09
  
 - 4800: exclude Duet dependency from project by slice2009 -- 2018-12-08
