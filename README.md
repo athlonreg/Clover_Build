@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4807: improve embedded theme, by Clovy by slice2009 -- 2018-12-12
+ 
 - 4806: security check in DumpUefiCalls by slice2009 -- 2018-12-11
  
 - 4805: keep legacy base tools in clover repo by slice2009 -- 2018-12-09
