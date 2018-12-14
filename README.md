@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4809: improve unicode support by slice2009 -- 2018-12-14
+ 
 - 4808: updated Clovy theme by slice2009 -- 2018-12-13
  
 - 4807: improve embedded theme, by Clovy by slice2009 -- 2018-12-12
