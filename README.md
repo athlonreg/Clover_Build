@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4810: Patches_for_EDK2/BaseTools/Source/C/Makefile for Windows by vectosigma -- 2018-12-15
+ 
 - 4809: improve unicode support by slice2009 -- 2018-12-14
  
 - 4808: updated Clovy theme by slice2009 -- 2018-12-13
