@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4812: Update CloverThemeManager app to v0.77.1 with initial vector theme support by blackosx -- 2018-12-17
+ 
 - 4811: implemented scroll bar for vector themes by slice2009 -- 2018-12-16
  
 - 4810: Patches_for_EDK2/BaseTools/Source/C/Makefile for Windows by vectosigma -- 2018-12-15
