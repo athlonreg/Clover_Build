@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4813: a text can be stroked by slice2009 -- 2018-12-19
+ 
 - 4812: Update CloverThemeManager app to v0.77.1 with initial vector theme support by blackosx -- 2018-12-17
  
 - 4811: implemented scroll bar for vector themes by slice2009 -- 2018-12-16
