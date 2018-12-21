@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4815: Fix some mismatched sign comparisons and type casting by apianti -- 2018-12-21
+ 
 - 4814: Fix build issues on Windows and some type casting errors by apianti -- 2018-12-21
  
 - 4813: a text can be stroked by slice2009 -- 2018-12-19
