@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4821: better VS2013 compatibility by slice2009 -- 2018-12-24
+ 
 - 4820: Fix horizontal placement of icons for raster themes. by blackosx -- 2018-12-24
  
 - 4815: Fix some mismatched sign comparisons and type casting by apianti -- 2018-12-21
