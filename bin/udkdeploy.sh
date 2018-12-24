@@ -18,13 +18,7 @@ cloverpkgsize=1
 cd ~/Documents/Tower/Build_Clover/ 
 if [[ ${pro_ver} > ${curr_ver} ]] ; then 
 	
-	# Remove old CLOVER in workspace 
-#	rm -rf ~/Documents/Tower/Build_Clover/build/* 
-#	rm -rf ~/Documents/Tower/Clover_Build/build/* 
-#	rm -rf ~/Documents/Tower/Build_Clover_GitLab/build/* 
-	
-#	zsh ~/Documents/Tower/Build_Clover/bin/udkbuild.sh
-	sh ~/Documents/Tower/Build_Clover/bin/udkbuild.sh
+	~/Documents/Tower/Build_Clover/bin/udkbuild.sh
 	
 	# Judge local CLOVER size to avoid error 
 	cloverpkgsize=$(ls -l ~/src/UDK2018/Clover/CloverPackage/sym/*.zip | awk '{print $5}') 
