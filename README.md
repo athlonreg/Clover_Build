@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4823: correct clip-path usage for images by slice2009 -- 2018-12-26
+ 
 - 4822: Fix for ticket #528 by zenith432 -- 2018-12-25
  
 - 4821: better VS2013 compatibility by slice2009 -- 2018-12-24
