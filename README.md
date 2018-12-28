@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4829: Add/Update some icons to christmas and newyear themes. by blackosx -- 2018-12-28
+ 
 - 4828: Fix r4826: -> operator has higher precedence than unary * operator by zenith432 -- 2018-12-28
  
 - 4826: a possibility to group clipPathes by slice2009 -- 2018-12-27
