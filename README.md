@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4832: text formatting by slice2009 -- 2019-01-02
+ 
 - 4831: Fix scrollbar elements that use transaprency. by blackosx -- 2018-12-29
  
 - 4829: Add/Update some icons to christmas and newyear themes. by blackosx -- 2018-12-28
