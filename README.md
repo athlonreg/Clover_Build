@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4834: fix wavelib compilation by slice2009 -- 2019-01-05
+ 
 - 4833: each theme can have own startup sound by slice2009 -- 2019-01-04
  
 - 4832: text formatting by slice2009 -- 2019-01-02
