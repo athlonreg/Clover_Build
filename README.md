@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4839: added hdacodec into svn control by slice2009 -- 2019-01-06
+ 
 - 4836: fix library names by slice2009 -- 2019-01-05
  
 - 4835: add AudioDxe driver by slice2009 -- 2019-01-05
