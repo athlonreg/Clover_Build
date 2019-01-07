@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4840: a choice between sync and async startup sound play by slice2009 -- 2019-01-08
+ 
 - 4839: added hdacodec into svn control by slice2009 -- 2019-01-06
  
 - 4836: fix library names by slice2009 -- 2019-01-05
