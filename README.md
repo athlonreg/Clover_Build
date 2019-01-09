@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4843: include AudioDxe into package by slice2009 -- 2019-01-09
+ 
 - 4842: missing definition by slice2009 -- 2019-01-09
  
 - 4840: a choice between sync and async startup sound play by slice2009 -- 2019-01-08
