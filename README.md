@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4844: accept audiodxe changes from goldfish64 by slice2009 -- 2019-01-10
+ 
 - 4843: include AudioDxe into package by slice2009 -- 2019-01-09
  
 - 4842: missing definition by slice2009 -- 2019-01-09
