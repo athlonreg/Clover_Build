@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4847: tune and test startupsound from GUI by slice2009 -- 2019-01-16
+ 
 - 4846: repair kext injection in Mojave, by vit9696 by slice2009 -- 2019-01-15
  
 - 4845: fix positions with bootCampStyle, by Needy by slice2009 -- 2019-01-14
