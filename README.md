@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4849: exclude redundant procedures by slice2009 -- 2019-01-17
+ 
 - 4848: add embedded sound by slice2009 -- 2019-01-17
  
 - 4847: tune and test startupsound from GUI by slice2009 -- 2019-01-16
