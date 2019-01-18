@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4850: security update for audio drivers by slice2009 -- 2019-01-18
+ 
 - 4849: exclude redundant procedures by slice2009 -- 2019-01-17
  
 - 4848: add embedded sound by slice2009 -- 2019-01-17
