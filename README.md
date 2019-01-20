@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4853: fixes for daylight and embedded sound by tluck by slice2009 -- 2019-01-20
+ 
 - 4852: possible sound 8kHz by slice2009 -- 2019-01-20
  
 - 4851: update AudioDxe driver to sync with origin by slice2009 -- 2019-01-18
