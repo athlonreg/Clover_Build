@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4858: improve reset nvram for bootchime. add more linux entry by shelocks -- 2019-01-22
+ 
 - 4857: check variables in audio interface by slice2009 -- 2019-01-22
  
 - 4856: fix some audio bugs by slice2009 -- 2019-01-21
