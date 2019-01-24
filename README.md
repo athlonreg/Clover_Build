@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4860: fix audio output numeration by slice2009 -- 2019-01-24
+ 
 - 4859: startup sound variables will be stored under AppleBootGuid for legacy compatibility by slice2009 -- 2019-01-23
  
 - 4858: improve reset nvram for bootchime. add more linux entry by shelocks -- 2019-01-22
