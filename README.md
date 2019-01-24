@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4861: better save and restore audio parameters by slice2009 -- 2019-01-25
+ 
 - 4860: fix audio output numeration by slice2009 -- 2019-01-24
  
 - 4859: startup sound variables will be stored under AppleBootGuid for legacy compatibility by slice2009 -- 2019-01-23
