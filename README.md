@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4862: fix kext injection for Mojave by PMheart by slice2009 -- 2019-01-25
+ 
 - 4861: better save and restore audio parameters by slice2009 -- 2019-01-25
  
 - 4860: fix audio output numeration by slice2009 -- 2019-01-24
