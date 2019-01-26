@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4863: fix lapic patch for Mojave by PMheart. improve reset emuvariable nvram for bootchime by shelocks -- 2019-01-27
+ 
 - 4862: fix kext injection for Mojave by PMheart by slice2009 -- 2019-01-25
  
 - 4861: better save and restore audio parameters by slice2009 -- 2019-01-25
