@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4905: automatic determine Nvidia card family by slice2009 -- 2019-03-26
+ 
 - 4904: do not create _DSM for HDEF device by slice2009 -- 2019-03-26
  
 - 4863: fix lapic patch for Mojave by PMheart. improve reset emuvariable nvram for bootchime by shelocks -- 2019-01-27
