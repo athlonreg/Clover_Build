@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4908: use separate names for several lan cards by slice2009 -- 2019-03-27
+ 
 - 4907: fix misprints by slice2009 -- 2019-03-27
  
 - 4905: automatic determine Nvidia card family by slice2009 -- 2019-03-26
