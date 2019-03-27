@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4910: update nvidia identification by slice2009 -- 2019-03-27
+ 
 - 4909: fix signed mismatch  by slice2009 -- 2019-03-27
  
 - 4908: use separate names for several lan cards by slice2009 -- 2019-03-27
