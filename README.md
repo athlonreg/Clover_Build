@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4911: fix applertc patch for 10.14.4+. thanks to RodionS by shelocks -- 2019-03-29
+ 
 - 4910: update nvidia identification by slice2009 -- 2019-03-27
  
 - 4909: fix signed mismatch  by slice2009 -- 2019-03-27
