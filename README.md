@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4914: Upgrade GCC and MTOC versions by zenith432 -- 2019-03-30
+ 
 - 4913: fix MatchOS for 10.14, only 10.14 (10.14.1 will be skipped) case by shelocks -- 2019-03-30
  
 - 4912: Remove EdkCompatibilityPkg from update.sh since it is not used and no longer present in edk2-master by apianti -- 2019-03-30
