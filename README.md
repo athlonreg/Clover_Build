@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4913: fix MatchOS for 10.14, only 10.14 (10.14.1 will be skipped) case by shelocks -- 2019-03-30
+ 
 - 4912: Remove EdkCompatibilityPkg from update.sh since it is not used and no longer present in edk2-master by apianti -- 2019-03-30
  
 - 4911: fix applertc patch for 10.14.4+. thanks to RodionS by shelocks -- 2019-03-29
