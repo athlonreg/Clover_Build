@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4915: cleanup iGPU values and fix force reboot when wakes up with an HDMI connected in 10.14+ by shelocks -- 2019-03-31
+ 
 - 4914: Upgrade GCC and MTOC versions by zenith432 -- 2019-03-30
  
 - 4913: fix MatchOS for 10.14, only 10.14 (10.14.1 will be skipped) case by shelocks -- 2019-03-30
