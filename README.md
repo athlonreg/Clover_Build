@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4917: Fix another time zone problem by apianti -- 2019-04-03
+ 
 - 4916: Fix default time zone handling by apianti -- 2019-04-03
  
 - 4915: cleanup iGPU values and fix force reboot when wakes up with an HDMI connected in 10.14+ by shelocks -- 2019-03-31
