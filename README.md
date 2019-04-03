@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4918: add info for iMac Early 2019. thanks to bootmacos by shelocks -- 2019-04-03
+ 
 - 4917: Fix another time zone problem by apianti -- 2019-04-03
  
 - 4916: Fix default time zone handling by apianti -- 2019-04-03
