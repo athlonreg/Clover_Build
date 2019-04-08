@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4919: exclude redundant lines by slice2009 -- 2019-04-06
+ 
 - 4918: add info for iMac Early 2019. thanks to bootmacos by shelocks -- 2019-04-03
  
 - 4917: Fix another time zone problem by apianti -- 2019-04-03
