@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4921: update bios and efi version. fix 1st Gen Intel HD Graphics QE/CI when using intel inject by shelocks -- 2019-04-23
+ 
 - 4920: improve automatic audio injection by slice2009 -- 2019-04-16
  
 - 4919: exclude redundant lines by slice2009 -- 2019-04-06
