@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4924: Update coffeelake_ig_vals from OS 10.14.4 by zenith432 -- 2019-04-27
+ 
 - 4923: fix acidantera access by slice2009 -- 2019-04-26
  
 - 4922: set loosen variable in message by slice2009 -- 2019-04-23
