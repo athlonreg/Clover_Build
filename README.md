@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4926: fix AMI UEFI BIOS mistake with Shell Edit command by slice2009 -- 2019-05-06
+ 
 - 4925: prevent using s4bios sleep by slice2009 -- 2019-05-01
  
 - 4924: Update coffeelake_ig_vals from OS 10.14.4 by zenith432 -- 2019-04-27
