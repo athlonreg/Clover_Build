@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4930: update platformdata and iGPU info by shelocks -- 2019-05-21
+ 
 - 4929: remove unnecessary updates by slice2009 -- 2019-05-20
  
 - 4928: allow shift key in search string by slice2009 -- 2019-05-07
