@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4933: fix typo and keep the latest efiversion by comparing clover and config by shelocks -- 2019-05-22
+ 
 - 4930: update platformdata and iGPU info by shelocks -- 2019-05-21
  
 - 4929: remove unnecessary updates by slice2009 -- 2019-05-20
