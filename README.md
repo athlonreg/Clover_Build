@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4939: catalina fakecpuid patcher by PMheart by slice2009 -- 2019-06-04
+ 
 - 4938: catalina kext injection by PMheart by slice2009 -- 2019-06-04
  
 - 4937: fix memory allocation by slice2009 -- 2019-05-30
