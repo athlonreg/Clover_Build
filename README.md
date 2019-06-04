@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4942: catalina lapic fix and fix typo by shelocks -- 2019-06-04
+ 
 - 4940: correct mistake in catalina fakecpuid patcher by PMheart by asava -- 2019-06-04
  
 - 4939: catalina fakecpuid patcher by PMheart by slice2009 -- 2019-06-04
