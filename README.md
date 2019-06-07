@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4952: secure check for mouse by slice2009 -- 2019-06-07
+ 
 - 4945: Update CloverThemeManger to v0.77.2 by blackosx -- 2019-06-05
  
 - 4944: catalina icon for cesium theme by slice2009 -- 2019-06-04
