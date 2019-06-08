@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4954: update Clovy theme by slice2009 -- 2019-06-08
+ 
 - 4953: simplify clip-path in Clovy theme by slice2009 -- 2019-06-07
  
 - 4952: secure check for mouse by slice2009 -- 2019-06-07
