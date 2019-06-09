@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4960: correct errors in initAnime & initTheme, which may cause hangs in some cases by asava -- 2019-06-09
+ 
 - 4959: fix lapic patch by pmheart. redefine GUID for Reset NVRAM by shelocks -- 2019-06-09
  
 - 4958: Don't inject REV, EPCI and RBr if REV is zeroed by vectosigma -- 2019-06-08
