@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4963: include ApfsDriverLoader into Clover repo by slice2009 -- 2019-06-11
+ 
 - 4962: new patch for kext injection, by PMheart by slice2009 -- 2019-06-10
  
 - 4960: correct errors in initAnime & initTheme, which may cause hangs in some cases by asava -- 2019-06-09
