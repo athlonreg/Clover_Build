@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4966: update platform data for Catalina by slice2009 -- 2019-06-20
+ 
 - 4964: revert kext injection patch by slice2009 -- 2019-06-11
  
 - 4963: include ApfsDriverLoader into Clover repo by slice2009 -- 2019-06-11
