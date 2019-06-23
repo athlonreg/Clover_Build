@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4970: cleanup and improve kext inject for future by shelocks -- 2019-06-23
+ 
 - 4969: improve lapic fix for future by shelocks -- 2019-06-22
  
 - 4968: text formatting by slice2009 -- 2019-06-20
