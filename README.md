@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4972: improve lapic fix and add lapic master fix by shelocks -- 2019-06-23
+ 
 - 4971: safety kext inject from volatile and location values, thanks to PMheart by shelocks -- 2019-06-23
  
 - 4970: cleanup and improve kext inject for future by shelocks -- 2019-06-23
