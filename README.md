@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4973: define APLF for IvyBridge-E5 by slice2009 -- 2019-06-24
+ 
 - 4972: improve lapic fix and add lapic master fix by shelocks -- 2019-06-23
  
 - 4971: safety kext inject from volatile and location values, thanks to PMheart by shelocks -- 2019-06-23
