@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4976: fix OEM string length by slice2009 -- 2019-06-27
+ 
 - 4975: improve log messages by PMheart by slice2009 -- 2019-06-26
  
 - 4974: os version compatibility check by PMheart by slice2009 -- 2019-06-25
