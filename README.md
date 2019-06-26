@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 4977: dark appearance for the package fixed by vectosigma -- 2019-06-27
+ 
 - 4976: fix OEM string length by slice2009 -- 2019-06-27
  
 - 4975: improve log messages by PMheart by slice2009 -- 2019-06-26
