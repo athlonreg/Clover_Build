@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 5027: update portuguese by Artur_pt by slice2009 -- 2019-07-19
+ 
 - 4979: svnversion is no longer available in Catalina by vectosigma -- 2019-06-30
  
 - 4978: Correct GUI hang in some cases due to double free of fonts by asava -- 2019-06-29
