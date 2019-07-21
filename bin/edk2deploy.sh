@@ -39,22 +39,22 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 # Copy CLOVER to remote repo
 # -------------------------------------------------------------------------------------------------------------------->
 	# Copy CLOVER to Gitee workspace 
-	mkdir -p ~/Documents/Tower/Build_Clover/build/Clover_v2.4k_r${pro_ver}
-	cp ~/src/edk2_micky/Clover/CloverPackage/sym/*.zip ~/Documents/Tower/Build_Clover/build/Clover_v2.4k_r${pro_ver}/ 
-	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverISO-${pro_ver}/*.iso ~/Documents/Tower/Build_Clover/build/Clover_v2.4k_r${pro_ver} 
-	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverCD/EFI/CLOVER/CLOVERX64.efi ~/Documents/Tower/Build_Clover/build/Clover_v2.4k_r${pro_ver} 
+	mkdir -p ~/Documents/Tower/Build_Clover/build/Clover_v2.5k_r${pro_ver}
+	cp ~/src/edk2_micky/Clover/CloverPackage/sym/*.zip ~/Documents/Tower/Build_Clover/build/Clover_v2.5k_r${pro_ver}/ 
+	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverISO-${pro_ver}/*.iso ~/Documents/Tower/Build_Clover/build/Clover_v2.5k_r${pro_ver} 
+	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverCD/EFI/CLOVER/CLOVERX64.efi ~/Documents/Tower/Build_Clover/build/Clover_v2.5k_r${pro_ver} 
 	
 	# Copy CLOVER to GitHub workspace 
-	mkdir -p ~/Documents/Tower/Clover_Build/build/Clover_v2.4k_r${pro_ver}
-	cp ~/src/edk2_micky/Clover/CloverPackage/sym/*.zip ~/Documents/Tower/Clover_Build/build/Clover_v2.4k_r${pro_ver}/ 
-	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverISO-${pro_ver}/*.iso ~/Documents/Tower/Clover_Build/build/Clover_v2.4k_r${pro_ver}/ 
-	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverCD/EFI/CLOVER/CLOVERX64.efi ~/Documents/Tower/Clover_Build/build/Clover_v2.4k_r${pro_ver}/ 
+	mkdir -p ~/Documents/Tower/Clover_Build/build/Clover_v2.5k_r${pro_ver}
+	cp ~/src/edk2_micky/Clover/CloverPackage/sym/*.zip ~/Documents/Tower/Clover_Build/build/Clover_v2.5k_r${pro_ver}/ 
+	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverISO-${pro_ver}/*.iso ~/Documents/Tower/Clover_Build/build/Clover_v2.5k_r${pro_ver}/ 
+	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverCD/EFI/CLOVER/CLOVERX64.efi ~/Documents/Tower/Clover_Build/build/Clover_v2.5k_r${pro_ver}/ 
 	
 	# Copy CLOVER to GitLab workspace 
-	mkdir -p ~/Documents/Tower/Build_Clover_GitLab/build/Clover_v2.4k_r${pro_ver}
-	cp ~/src/edk2_micky/Clover/CloverPackage/sym/*.zip ~/Documents/Tower/Build_Clover_GitLab/build/Clover_v2.4k_r${pro_ver}/  
-	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverISO-${pro_ver}/*.iso ~/Documents/Tower/Build_Clover_GitLab/build/Clover_v2.4k_r${pro_ver}/  
-	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverCD/EFI/CLOVER/CLOVERX64.efi ~/Documents/Tower/Build_Clover_GitLab/build/Clover_v2.4k_r${pro_ver}/  
+	mkdir -p ~/Documents/Tower/Build_Clover_GitLab/build/Clover_v2.5k_r${pro_ver}
+	cp ~/src/edk2_micky/Clover/CloverPackage/sym/*.zip ~/Documents/Tower/Build_Clover_GitLab/build/Clover_v2.5k_r${pro_ver}/  
+	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverISO-${pro_ver}/*.iso ~/Documents/Tower/Build_Clover_GitLab/build/Clover_v2.5k_r${pro_ver}/  
+	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverCD/EFI/CLOVER/CLOVERX64.efi ~/Documents/Tower/Build_Clover_GitLab/build/Clover_v2.5k_r${pro_ver}/  
 # <--------------------------------------------------------------------------------------------------------------------
 
 # Push commit to remote repo
@@ -74,7 +74,7 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 	for i in $(ls -l ~/Documents/Tower/Build_Clover/drivers64UEFI | grep -v total | awk '{print $9}') 
 	do 
 		git add drivers64UEFI/${i} 
-		git commit -m "Update ${i} based on Clover_v2.4k_r${pro_ver}"
+		git commit -m "Update ${i} based on Clover_v2.5k_r${pro_ver}"
 	done
 #	git tag -a $git_tag -m "$log"
 #	git push origin $git_tag
@@ -95,7 +95,7 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 	for i in $(ls -l ~/Documents/Tower/Build_Clover_GitLab/drivers64UEFI | grep -v total | awk '{print $9}') 
 	do 
 		git add drivers64UEFI/${i} 
-		git commit -m "Update ${i} based on Clover_v2.4k_r${pro_ver}"
+		git commit -m "Update ${i} based on Clover_v2.5k_r${pro_ver}"
 	done
 #	git tag -a $git_tag -m "$log"
 #	git push origin $git_tag
@@ -116,7 +116,7 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 	for i in $(ls -l ~/Documents/Tower/Clover_Build/drivers64UEFI | grep -v total | awk '{print $9}') 
 	do 
 		git add drivers64UEFI/${i} 
-		git commit -m "Update ${i} based on Clover_v2.4k_r${pro_ver}"
+		git commit -m "Update ${i} based on Clover_v2.5k_r${pro_ver}"
 	done
 #	git tag -a $git_tag -m "$log"
 #	git push origin $git_tag
