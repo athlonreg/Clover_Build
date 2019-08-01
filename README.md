@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 5033: update bios and efi verison by shelocks -- 2019-07-29
+ 
 - 5028: fix PatchAPIC by Florin9doi by slice2009 -- 2019-07-25
  
 - 5027: update portuguese by Artur_pt by slice2009 -- 2019-07-19
