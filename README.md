@@ -12,6 +12,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 5039: fix infinite loop by slice2009 -- 2019-08-09
+ 
 - 5035: add new 2019 mac models and update bios and efi version by shelocks -- 2019-08-05
  
 - 5034: update french translation by polyzargone by slice2009 -- 2019-08-05
