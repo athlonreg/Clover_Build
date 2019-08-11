@@ -9,20 +9,18 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
-- 5046: Fix for ticket 519 (find the ESP on a Fusion drive with APFS containers) by vectosigma -- 2019-08-11
- 
 - 5039: fix infinite loop by slice2009 -- 2019-08-09
- 
+
 - 5035: add new 2019 mac models and update bios and efi version by shelocks -- 2019-08-05
- 
+
 - 5034: update french translation by polyzargone by slice2009 -- 2019-08-05
- 
+
 - 5033: update bios and efi verison by shelocks -- 2019-07-29
- 
+
 - 5028: fix PatchAPIC by Florin9doi by slice2009 -- 2019-07-25
- 
+
 - 5027: update portuguese by Artur_pt by slice2009 -- 2019-07-19
- 
+
 - 2019-7-21: 出差工作，前面没时间更新，在此记录
 
 - 4979: svnversion is no longer available in Catalina by vectosigma -- 2019-06-30
