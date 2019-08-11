@@ -53,17 +53,34 @@ if [[ ${pro_ver} > ${curr_ver} ]] ; then
 	gsed -i -e "11a\- $log -- $updatetime" README.md
 	git add .
 	git commit -m "$log"
-	# Copy EFI drivers to Gitee workspace 
-#	rm -rf ~/Documents/Tower/Clover_Build/drivers64UEFI/*.efi 
-	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverCD/EFI/CLOVER/drivers64UEFI/*.efi ~/Documents/Tower/Clover_Build/drivers64UEFI/ 
-	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverCD/EFI/CLOVER/drivers64/*.efi ~/Documents/Tower/Clover_Build/drivers64UEFI/ 
-	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverCD/EFI/CLOVER/drivers-Off/drivers64/*.efi ~/Documents/Tower/Clover_Build/drivers64UEFI/ 
-	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverCD/EFI/CLOVER/drivers-Off/drivers64UEFI/*.efi ~/Documents/Tower/Clover_Build/drivers64UEFI/ 
-	for i in $(ls -l ~/Documents/Tower/Clover_Build/drivers64UEFI | grep -v total | awk '{print $9}') 
+
+	# Copy EFI drivers to GitHub workspace
+	rm -rf ~/Documents/Tower/Clover_Build/drivers/*/*.efi
+    cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverCD/EFI/CLOVER/drivers/BIOS/*.efi ~/Documents/Tower/Clover_Build/drivers/BIOS/
+    cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverCD/EFI/CLOVER/drivers/UEFI/*.efi ~/Documents/Tower/Clover_Build/drivers/UEFI/
+	cp ~/src/edk2_micky/Clover/CloverPackage/sym/CloverCD/EFI/CLOVER/drivers/off/*.efi ~/Documents/Tower/Clover_Build/drivers/off/
+
+    # BIOS
+	for i in $(ls -l ~/Documents/Tower/Clover_Build/drivers/BIOS | grep -v total | awk '{print $9}')
 	do 
-		git add drivers64UEFI/${i} 
+		git add drivers/BIOS/${i}
 		git commit -m "Update ${i} based on Clover_v2.5k_r${pro_ver}"
 	done
+
+    # UEFI
+    for i in $(ls -l ~/Documents/Tower/Clover_Build/drivers/UEFI | grep -v total | awk '{print $9}')
+    do
+        git add drivers/UEFI/${i}
+        git commit -m "Update ${i} based on Clover_v2.5k_r${pro_ver}"
+    done
+
+    # off
+    for i in $(ls -l ~/Documents/Tower/Clover_Build/drivers/off | grep -v total | awk '{print $9}')
+    do
+        git add drivers/off/${i}
+        git commit -m "Update ${i} based on Clover_v2.5k_r${pro_ver}"
+    done
+
 #	git tag -a $git_tag -m "$log"
 #	git push origin $git_tag
 	git push origin master
