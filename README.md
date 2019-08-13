@@ -9,6 +9,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 5047: update chinese translation by Steve by slice2009 -- 2019-08-13
+ 
 - 5046: Fix for ticket 519 (find the ESP on a Fusion drive with APFS containers) by vectosigma -- 2019-08-11
  
 - 5039: fix infinite loop by slice2009 -- 2019-08-09
