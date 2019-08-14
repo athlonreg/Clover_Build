@@ -9,6 +9,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 5049: secure check for gradient present by slice2009 -- 2019-08-14
+ 
 - 5048: text formatting by slice2009 -- 2019-08-14
  
 - 5047: update chinese translation by Steve by slice2009 -- 2019-08-13
