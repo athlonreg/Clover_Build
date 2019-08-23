@@ -9,6 +9,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 5056: more messages about kex tinjection to log by slice2009 -- 2019-08-23
+ 
 - 5050: Installing in the ESP will be as before r5030 (no package failure if the ESP is not found) by vectosigma -- 2019-08-15
  
 - 5049: secure check for gradient present by slice2009 -- 2019-08-14
