@@ -9,6 +9,8 @@
 - [tianocore's edk2](https://github.com/tianocore/edk2)
 
 ## Changelog
+- 5058: add Off folder by slice2009 -- 2019-08-27
+ 
 - 5057: new radeon family VII by slice2009 -- 2019-08-26
  
 - 5056: more messages about kex tinjection to log by slice2009 -- 2019-08-23
